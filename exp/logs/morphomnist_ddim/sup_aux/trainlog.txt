@@ -1,0 +1,1440 @@
+03-Jan-23 01:11:23, --alpha=0.001
+03-Jan-23 01:11:23, --bs=32
+03-Jan-23 01:11:23, --concat_pa=False
+03-Jan-23 01:11:23, --context_norm=[-1,1]
+03-Jan-23 01:11:23, --data_dir=/home/fabio/Data/morphomnist/
+03-Jan-23 01:11:23, --dataset=morphomnist
+03-Jan-23 01:11:23, --deterministic=False
+03-Jan-23 01:11:23, --epochs=5000
+03-Jan-23 01:11:23, --eval_freq=1
+03-Jan-23 01:11:23, --exp_name=sup_aux
+03-Jan-23 01:11:23, --hflip=0.5
+03-Jan-23 01:11:23, --input_channels=1
+03-Jan-23 01:11:23, --input_res=32
+03-Jan-23 01:11:23, --load_path=
+03-Jan-23 01:11:23, --lr=0.0001
+03-Jan-23 01:11:23, --lr_warmup_steps=1
+03-Jan-23 01:11:23, --n_labelled=60000
+03-Jan-23 01:11:23, --n_total=60000
+03-Jan-23 01:11:23, --n_unlabelled=0
+03-Jan-23 01:11:23, --pad=4
+03-Jan-23 01:11:23, --parents_x=['thickness', 'intensity', 'digit']
+03-Jan-23 01:11:23, --save_dir=../../checkpoints/t_i_d/sup_aux
+03-Jan-23 01:11:23, --seed=7
+03-Jan-23 01:11:23, --setup=sup_aux
+03-Jan-23 01:11:23, --std_fixed=0
+03-Jan-23 01:11:23, --sup_frac=1
+03-Jan-23 01:11:23, --testing=False
+03-Jan-23 01:11:23, --wd=0.01
+03-Jan-23 01:11:23, --widths=[32, 32]
+03-Jan-23 01:11:23, Data splits: #labelled: 60000 - #unlabelled: 0
+03-Jan-23 01:11:23, Epoch 1:
+03-Jan-23 01:12:45, loss | train: 30.6756 - valid: 17.8316 - steps: 1875
+03-Jan-23 01:12:46, valid | thickness_mae: 0.1333 - intensity_mae: 6.5120 - digit_acc: 0.9273
+03-Jan-23 01:12:46, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 01:12:46, Epoch 2:
+03-Jan-23 01:14:03, loss | train: 4.6427 - valid: 1.7161 - steps: 3750
+03-Jan-23 01:14:05, valid | thickness_mae: 0.1052 - intensity_mae: 3.8788 - digit_acc: 0.9719
+03-Jan-23 01:14:05, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 01:14:05, Epoch 3:
+03-Jan-23 01:15:21, loss | train: 1.5146 - valid: -0.8481 - steps: 5625
+03-Jan-23 01:15:23, valid | thickness_mae: 0.0931 - intensity_mae: 3.3235 - digit_acc: 0.9809
+03-Jan-23 01:15:23, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 01:15:23, Epoch 4:
+03-Jan-23 01:16:39, loss | train: 0.3433 - valid: -1.6293 - steps: 7500
+03-Jan-23 01:16:41, valid | thickness_mae: 0.0873 - intensity_mae: 3.2149 - digit_acc: 0.9846
+03-Jan-23 01:16:41, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 01:16:41, Epoch 5:
+03-Jan-23 01:17:57, loss | train: -0.2662 - valid: -2.0229 - steps: 9375
+03-Jan-23 01:17:59, valid | thickness_mae: 0.0851 - intensity_mae: 3.0868 - digit_acc: 0.9855
+03-Jan-23 01:17:59, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 01:17:59, Epoch 6:
+03-Jan-23 01:19:16, loss | train: -0.7384 - valid: -2.2808 - steps: 11250
+03-Jan-23 01:19:17, valid | thickness_mae: 0.0830 - intensity_mae: 3.0040 - digit_acc: 0.9874
+03-Jan-23 01:19:18, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 01:19:18, Epoch 7:
+03-Jan-23 01:20:34, loss | train: -1.1007 - valid: -2.4471 - steps: 13125
+03-Jan-23 01:20:36, valid | thickness_mae: 0.0812 - intensity_mae: 2.8801 - digit_acc: 0.9877
+03-Jan-23 01:20:36, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 01:20:36, Epoch 8:
+03-Jan-23 01:21:52, loss | train: -1.2673 - valid: -2.5569 - steps: 15000
+03-Jan-23 01:21:54, valid | thickness_mae: 0.0799 - intensity_mae: 2.8390 - digit_acc: 0.9876
+03-Jan-23 01:21:54, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 01:21:54, Epoch 9:
+03-Jan-23 01:23:10, loss | train: -1.4516 - valid: -2.6552 - steps: 16875
+03-Jan-23 01:23:12, valid | thickness_mae: 0.0789 - intensity_mae: 2.7693 - digit_acc: 0.9887
+03-Jan-23 01:23:12, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 01:23:12, Epoch 10:
+03-Jan-23 01:24:28, loss | train: -1.6203 - valid: -2.7626 - steps: 18750
+03-Jan-23 01:24:30, valid | thickness_mae: 0.0780 - intensity_mae: 2.7387 - digit_acc: 0.9908
+03-Jan-23 01:24:30, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 01:24:30, Epoch 11:
+03-Jan-23 01:25:46, loss | train: -1.7706 - valid: -2.8159 - steps: 20625
+03-Jan-23 01:25:48, valid | thickness_mae: 0.0772 - intensity_mae: 2.6872 - digit_acc: 0.9905
+03-Jan-23 01:25:48, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 01:25:48, Epoch 12:
+03-Jan-23 01:27:04, loss | train: -1.9165 - valid: -2.8455 - steps: 22500
+03-Jan-23 01:27:06, valid | thickness_mae: 0.0769 - intensity_mae: 2.6610 - digit_acc: 0.9906
+03-Jan-23 01:27:06, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 01:27:06, Epoch 13:
+03-Jan-23 01:28:22, loss | train: -1.9925 - valid: -2.9151 - steps: 24375
+03-Jan-23 01:28:24, valid | thickness_mae: 0.0764 - intensity_mae: 2.6159 - digit_acc: 0.9912
+03-Jan-23 01:28:24, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 01:28:24, Epoch 14:
+03-Jan-23 01:29:40, loss | train: -2.0771 - valid: -2.9960 - steps: 26250
+03-Jan-23 01:29:42, valid | thickness_mae: 0.0760 - intensity_mae: 2.5797 - digit_acc: 0.9918
+03-Jan-23 01:29:42, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 01:29:42, Epoch 15:
+03-Jan-23 01:30:59, loss | train: -2.2088 - valid: -3.0564 - steps: 28125
+03-Jan-23 01:31:00, valid | thickness_mae: 0.0755 - intensity_mae: 2.5531 - digit_acc: 0.9920
+03-Jan-23 01:31:00, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 01:31:00, Epoch 16:
+03-Jan-23 01:32:17, loss | train: -2.2805 - valid: -3.0729 - steps: 30000
+03-Jan-23 01:32:19, valid | thickness_mae: 0.0751 - intensity_mae: 2.5164 - digit_acc: 0.9917
+03-Jan-23 01:32:19, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 01:32:19, Epoch 17:
+03-Jan-23 01:33:35, loss | train: -2.3389 - valid: -3.0790 - steps: 31875
+03-Jan-23 01:33:37, valid | thickness_mae: 0.0748 - intensity_mae: 2.5055 - digit_acc: 0.9924
+03-Jan-23 01:33:37, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 01:33:37, Epoch 18:
+03-Jan-23 01:34:53, loss | train: -2.3586 - valid: -3.0980 - steps: 33750
+03-Jan-23 01:34:55, valid | thickness_mae: 0.0746 - intensity_mae: 2.4823 - digit_acc: 0.9922
+03-Jan-23 01:34:55, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 01:34:55, Epoch 19:
+03-Jan-23 01:36:11, loss | train: -2.4552 - valid: -3.1229 - steps: 35625
+03-Jan-23 01:36:13, valid | thickness_mae: 0.0743 - intensity_mae: 2.4648 - digit_acc: 0.9923
+03-Jan-23 01:36:13, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 01:36:13, Epoch 20:
+03-Jan-23 01:37:29, loss | train: -2.4840 - valid: -3.1664 - steps: 37500
+03-Jan-23 01:37:31, valid | thickness_mae: 0.0741 - intensity_mae: 2.4635 - digit_acc: 0.9922
+03-Jan-23 01:37:31, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 01:37:31, Epoch 21:
+03-Jan-23 01:38:48, loss | train: -2.5982 - valid: -3.2046 - steps: 39375
+03-Jan-23 01:38:49, valid | thickness_mae: 0.0738 - intensity_mae: 2.4223 - digit_acc: 0.9927
+03-Jan-23 01:38:49, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 01:38:49, Epoch 22:
+03-Jan-23 01:40:06, loss | train: -2.6238 - valid: -3.2063 - steps: 41250
+03-Jan-23 01:40:08, valid | thickness_mae: 0.0734 - intensity_mae: 2.4180 - digit_acc: 0.9924
+03-Jan-23 01:40:08, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 01:40:08, Epoch 23:
+03-Jan-23 01:41:24, loss | train: -2.6570 - valid: -3.2236 - steps: 43125
+03-Jan-23 01:41:26, valid | thickness_mae: 0.0733 - intensity_mae: 2.3833 - digit_acc: 0.9921
+03-Jan-23 01:41:26, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 01:41:26, Epoch 24:
+03-Jan-23 01:42:42, loss | train: -2.7033 - valid: -3.2384 - steps: 45000
+03-Jan-23 01:42:44, valid | thickness_mae: 0.0731 - intensity_mae: 2.3714 - digit_acc: 0.9924
+03-Jan-23 01:42:44, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 01:42:44, Epoch 25:
+03-Jan-23 01:44:00, loss | train: -2.7125 - valid: -3.2423 - steps: 46875
+03-Jan-23 01:44:02, valid | thickness_mae: 0.0728 - intensity_mae: 2.3674 - digit_acc: 0.9922
+03-Jan-23 01:44:02, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 01:44:02, Epoch 26:
+03-Jan-23 01:45:18, loss | train: -2.7837 - valid: -3.2847 - steps: 48750
+03-Jan-23 01:45:20, valid | thickness_mae: 0.0725 - intensity_mae: 2.3452 - digit_acc: 0.9930
+03-Jan-23 01:45:20, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 01:45:20, Epoch 27:
+03-Jan-23 01:46:37, loss | train: -2.7799 - valid: -3.2807 - steps: 50625
+03-Jan-23 01:46:38, valid | thickness_mae: 0.0724 - intensity_mae: 2.3314 - digit_acc: 0.9920
+03-Jan-23 01:46:38, Epoch 28:
+03-Jan-23 01:47:55, loss | train: -2.9281 - valid: -3.3022 - steps: 52500
+03-Jan-23 01:47:56, valid | thickness_mae: 0.0723 - intensity_mae: 2.3023 - digit_acc: 0.9933
+03-Jan-23 01:47:57, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 01:47:57, Epoch 29:
+03-Jan-23 01:49:16, loss | train: -2.8781 - valid: -3.3129 - steps: 54375
+03-Jan-23 01:49:18, valid | thickness_mae: 0.0721 - intensity_mae: 2.2697 - digit_acc: 0.9934
+03-Jan-23 01:49:18, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 01:49:18, Epoch 30:
+03-Jan-23 01:50:34, loss | train: -2.9519 - valid: -3.3435 - steps: 56250
+03-Jan-23 01:50:36, valid | thickness_mae: 0.0720 - intensity_mae: 2.2623 - digit_acc: 0.9929
+03-Jan-23 01:50:36, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 01:50:36, Epoch 31:
+03-Jan-23 01:51:53, loss | train: -3.0186 - valid: -3.3563 - steps: 58125
+03-Jan-23 01:51:54, valid | thickness_mae: 0.0719 - intensity_mae: 2.2404 - digit_acc: 0.9926
+03-Jan-23 01:51:54, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 01:51:54, Epoch 32:
+03-Jan-23 01:53:11, loss | train: -3.0263 - valid: -3.3539 - steps: 60000
+03-Jan-23 01:53:12, valid | thickness_mae: 0.0718 - intensity_mae: 2.2371 - digit_acc: 0.9927
+03-Jan-23 01:53:12, Epoch 33:
+03-Jan-23 01:54:29, loss | train: -2.9845 - valid: -3.3590 - steps: 61875
+03-Jan-23 01:54:31, valid | thickness_mae: 0.0718 - intensity_mae: 2.2232 - digit_acc: 0.9928
+03-Jan-23 01:54:31, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 01:54:31, Epoch 34:
+03-Jan-23 01:55:47, loss | train: -3.1035 - valid: -3.3862 - steps: 63750
+03-Jan-23 01:55:49, valid | thickness_mae: 0.0715 - intensity_mae: 2.1918 - digit_acc: 0.9923
+03-Jan-23 01:55:49, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 01:55:49, Epoch 35:
+03-Jan-23 01:57:05, loss | train: -3.1254 - valid: -3.3901 - steps: 65625
+03-Jan-23 01:57:07, valid | thickness_mae: 0.0713 - intensity_mae: 2.1738 - digit_acc: 0.9926
+03-Jan-23 01:57:07, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 01:57:07, Epoch 36:
+03-Jan-23 01:58:24, loss | train: -3.1714 - valid: -3.4348 - steps: 67500
+03-Jan-23 01:58:25, valid | thickness_mae: 0.0712 - intensity_mae: 2.1700 - digit_acc: 0.9937
+03-Jan-23 01:58:25, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 01:58:25, Epoch 37:
+03-Jan-23 01:59:42, loss | train: -3.1846 - valid: -3.4513 - steps: 69375
+03-Jan-23 01:59:44, valid | thickness_mae: 0.0709 - intensity_mae: 2.1374 - digit_acc: 0.9927
+03-Jan-23 01:59:44, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 01:59:44, Epoch 38:
+03-Jan-23 02:01:00, loss | train: -3.1905 - valid: -3.4863 - steps: 71250
+03-Jan-23 02:01:02, valid | thickness_mae: 0.0707 - intensity_mae: 2.1526 - digit_acc: 0.9932
+03-Jan-23 02:01:02, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 02:01:02, Epoch 39:
+03-Jan-23 02:02:18, loss | train: -3.2265 - valid: -3.4800 - steps: 73125
+03-Jan-23 02:02:20, valid | thickness_mae: 0.0706 - intensity_mae: 2.1463 - digit_acc: 0.9935
+03-Jan-23 02:02:20, Epoch 40:
+03-Jan-23 02:03:36, loss | train: -3.2345 - valid: -3.4988 - steps: 75000
+03-Jan-23 02:03:38, valid | thickness_mae: 0.0705 - intensity_mae: 2.1237 - digit_acc: 0.9930
+03-Jan-23 02:03:38, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 02:03:38, Epoch 41:
+03-Jan-23 02:04:54, loss | train: -3.2540 - valid: -3.4903 - steps: 76875
+03-Jan-23 02:04:56, valid | thickness_mae: 0.0705 - intensity_mae: 2.1156 - digit_acc: 0.9924
+03-Jan-23 02:04:56, Epoch 42:
+03-Jan-23 02:06:13, loss | train: -3.2738 - valid: -3.5124 - steps: 78750
+03-Jan-23 02:06:14, valid | thickness_mae: 0.0706 - intensity_mae: 2.1299 - digit_acc: 0.9928
+03-Jan-23 02:06:14, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 02:06:14, Epoch 43:
+03-Jan-23 02:07:31, loss | train: -3.3594 - valid: -3.5329 - steps: 80625
+03-Jan-23 02:07:33, valid | thickness_mae: 0.0703 - intensity_mae: 2.1115 - digit_acc: 0.9937
+03-Jan-23 02:07:33, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 02:07:33, Epoch 44:
+03-Jan-23 02:08:49, loss | train: -3.3432 - valid: -3.5566 - steps: 82500
+03-Jan-23 02:08:51, valid | thickness_mae: 0.0702 - intensity_mae: 2.0880 - digit_acc: 0.9927
+03-Jan-23 02:08:51, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 02:08:51, Epoch 45:
+03-Jan-23 02:10:07, loss | train: -3.3934 - valid: -3.5295 - steps: 84375
+03-Jan-23 02:10:09, valid | thickness_mae: 0.0700 - intensity_mae: 2.1153 - digit_acc: 0.9932
+03-Jan-23 02:10:09, Epoch 46:
+03-Jan-23 02:11:26, loss | train: -3.3422 - valid: -3.5558 - steps: 86250
+03-Jan-23 02:11:27, valid | thickness_mae: 0.0702 - intensity_mae: 2.1049 - digit_acc: 0.9933
+03-Jan-23 02:11:27, Epoch 47:
+03-Jan-23 02:12:44, loss | train: -3.4168 - valid: -3.5346 - steps: 88125
+03-Jan-23 02:12:45, valid | thickness_mae: 0.0700 - intensity_mae: 2.1152 - digit_acc: 0.9927
+03-Jan-23 02:12:45, Epoch 48:
+03-Jan-23 02:14:02, loss | train: -3.4058 - valid: -3.5370 - steps: 90000
+03-Jan-23 02:14:03, valid | thickness_mae: 0.0698 - intensity_mae: 2.0910 - digit_acc: 0.9927
+03-Jan-23 02:14:03, Epoch 49:
+03-Jan-23 02:15:20, loss | train: -3.4311 - valid: -3.5415 - steps: 91875
+03-Jan-23 02:15:21, valid | thickness_mae: 0.0696 - intensity_mae: 2.0764 - digit_acc: 0.9928
+03-Jan-23 02:15:21, Epoch 50:
+03-Jan-23 02:16:38, loss | train: -3.4536 - valid: -3.5298 - steps: 93750
+03-Jan-23 02:16:40, valid | thickness_mae: 0.0694 - intensity_mae: 2.0670 - digit_acc: 0.9924
+03-Jan-23 02:16:40, Epoch 51:
+03-Jan-23 02:17:56, loss | train: -3.4641 - valid: -3.5958 - steps: 95625
+03-Jan-23 02:17:58, valid | thickness_mae: 0.0694 - intensity_mae: 2.0674 - digit_acc: 0.9933
+03-Jan-23 02:17:58, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 02:17:58, Epoch 52:
+03-Jan-23 02:19:14, loss | train: -3.4876 - valid: -3.5873 - steps: 97500
+03-Jan-23 02:19:16, valid | thickness_mae: 0.0693 - intensity_mae: 2.0690 - digit_acc: 0.9932
+03-Jan-23 02:19:16, Epoch 53:
+03-Jan-23 02:20:32, loss | train: -3.4927 - valid: -3.6011 - steps: 99375
+03-Jan-23 02:20:34, valid | thickness_mae: 0.0693 - intensity_mae: 2.0810 - digit_acc: 0.9941
+03-Jan-23 02:20:34, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 02:20:34, Epoch 54:
+03-Jan-23 02:21:50, loss | train: -3.4953 - valid: -3.6247 - steps: 101250
+03-Jan-23 02:21:52, valid | thickness_mae: 0.0692 - intensity_mae: 2.0788 - digit_acc: 0.9936
+03-Jan-23 02:21:52, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 02:21:52, Epoch 55:
+03-Jan-23 02:23:09, loss | train: -3.5165 - valid: -3.5902 - steps: 103125
+03-Jan-23 02:23:10, valid | thickness_mae: 0.0690 - intensity_mae: 2.0646 - digit_acc: 0.9932
+03-Jan-23 02:23:10, Epoch 56:
+03-Jan-23 02:24:27, loss | train: -3.5657 - valid: -3.6387 - steps: 105000
+03-Jan-23 02:24:28, valid | thickness_mae: 0.0691 - intensity_mae: 2.0585 - digit_acc: 0.9939
+03-Jan-23 02:24:28, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 02:24:28, Epoch 57:
+03-Jan-23 02:25:45, loss | train: -3.5428 - valid: -3.6349 - steps: 106875
+03-Jan-23 02:25:46, valid | thickness_mae: 0.0689 - intensity_mae: 2.0468 - digit_acc: 0.9938
+03-Jan-23 02:25:46, Epoch 58:
+03-Jan-23 02:27:03, loss | train: -3.5397 - valid: -3.6425 - steps: 108750
+03-Jan-23 02:27:04, valid | thickness_mae: 0.0689 - intensity_mae: 2.0336 - digit_acc: 0.9938
+03-Jan-23 02:27:04, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 02:27:04, Epoch 59:
+03-Jan-23 02:28:21, loss | train: -3.5941 - valid: -3.6086 - steps: 110625
+03-Jan-23 02:28:22, valid | thickness_mae: 0.0689 - intensity_mae: 2.0128 - digit_acc: 0.9927
+03-Jan-23 02:28:22, Epoch 60:
+03-Jan-23 02:29:39, loss | train: -3.5823 - valid: -3.6267 - steps: 112500
+03-Jan-23 02:29:41, valid | thickness_mae: 0.0689 - intensity_mae: 2.0287 - digit_acc: 0.9934
+03-Jan-23 02:29:41, Epoch 61:
+03-Jan-23 02:30:57, loss | train: -3.5982 - valid: -3.6329 - steps: 114375
+03-Jan-23 02:30:59, valid | thickness_mae: 0.0685 - intensity_mae: 2.0246 - digit_acc: 0.9928
+03-Jan-23 02:30:59, Epoch 62:
+03-Jan-23 02:32:15, loss | train: -3.6298 - valid: -3.6166 - steps: 116250
+03-Jan-23 02:32:17, valid | thickness_mae: 0.0684 - intensity_mae: 2.0121 - digit_acc: 0.9932
+03-Jan-23 02:32:17, Epoch 63:
+03-Jan-23 02:33:33, loss | train: -3.6253 - valid: -3.6335 - steps: 118125
+03-Jan-23 02:33:35, valid | thickness_mae: 0.0684 - intensity_mae: 2.0192 - digit_acc: 0.9931
+03-Jan-23 02:33:35, Epoch 64:
+03-Jan-23 02:34:51, loss | train: -3.6262 - valid: -3.6144 - steps: 120000
+03-Jan-23 02:34:53, valid | thickness_mae: 0.0684 - intensity_mae: 1.9959 - digit_acc: 0.9927
+03-Jan-23 02:34:53, Epoch 65:
+03-Jan-23 02:36:10, loss | train: -3.6548 - valid: -3.6029 - steps: 121875
+03-Jan-23 02:36:11, valid | thickness_mae: 0.0682 - intensity_mae: 2.0021 - digit_acc: 0.9927
+03-Jan-23 02:36:11, Epoch 66:
+03-Jan-23 02:37:28, loss | train: -3.6490 - valid: -3.6183 - steps: 123750
+03-Jan-23 02:37:29, valid | thickness_mae: 0.0682 - intensity_mae: 2.0079 - digit_acc: 0.9931
+03-Jan-23 02:37:29, Epoch 67:
+03-Jan-23 02:38:46, loss | train: -3.6815 - valid: -3.6660 - steps: 125625
+03-Jan-23 02:38:48, valid | thickness_mae: 0.0682 - intensity_mae: 1.9863 - digit_acc: 0.9935
+03-Jan-23 02:38:48, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 02:38:48, Epoch 68:
+03-Jan-23 02:40:04, loss | train: -3.6709 - valid: -3.6681 - steps: 127500
+03-Jan-23 02:40:06, valid | thickness_mae: 0.0681 - intensity_mae: 1.9923 - digit_acc: 0.9936
+03-Jan-23 02:40:06, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 02:40:06, Epoch 69:
+03-Jan-23 02:41:22, loss | train: -3.6969 - valid: -3.6315 - steps: 129375
+03-Jan-23 02:41:24, valid | thickness_mae: 0.0681 - intensity_mae: 1.9933 - digit_acc: 0.9933
+03-Jan-23 02:41:24, Epoch 70:
+03-Jan-23 02:42:41, loss | train: -3.7130 - valid: -3.6227 - steps: 131250
+03-Jan-23 02:42:42, valid | thickness_mae: 0.0680 - intensity_mae: 2.0166 - digit_acc: 0.9924
+03-Jan-23 02:42:42, Epoch 71:
+03-Jan-23 02:43:59, loss | train: -3.7443 - valid: -3.6510 - steps: 133125
+03-Jan-23 02:44:01, valid | thickness_mae: 0.0679 - intensity_mae: 1.9785 - digit_acc: 0.9930
+03-Jan-23 02:44:01, Epoch 72:
+03-Jan-23 02:45:17, loss | train: -3.7386 - valid: -3.6571 - steps: 135000
+03-Jan-23 02:45:19, valid | thickness_mae: 0.0679 - intensity_mae: 1.9795 - digit_acc: 0.9927
+03-Jan-23 02:45:19, Epoch 73:
+03-Jan-23 02:46:35, loss | train: -3.7427 - valid: -3.6661 - steps: 136875
+03-Jan-23 02:46:37, valid | thickness_mae: 0.0680 - intensity_mae: 2.0170 - digit_acc: 0.9939
+03-Jan-23 02:46:37, Epoch 74:
+03-Jan-23 02:47:53, loss | train: -3.7449 - valid: -3.6607 - steps: 138750
+03-Jan-23 02:47:55, valid | thickness_mae: 0.0679 - intensity_mae: 1.9745 - digit_acc: 0.9930
+03-Jan-23 02:47:55, Epoch 75:
+03-Jan-23 02:49:12, loss | train: -3.7510 - valid: -3.6152 - steps: 140625
+03-Jan-23 02:49:14, valid | thickness_mae: 0.0677 - intensity_mae: 1.9664 - digit_acc: 0.9931
+03-Jan-23 02:49:14, Epoch 76:
+03-Jan-23 02:50:30, loss | train: -3.7689 - valid: -3.6256 - steps: 142500
+03-Jan-23 02:50:32, valid | thickness_mae: 0.0677 - intensity_mae: 1.9630 - digit_acc: 0.9926
+03-Jan-23 02:50:32, Epoch 77:
+03-Jan-23 02:51:48, loss | train: -3.7879 - valid: -3.6501 - steps: 144375
+03-Jan-23 02:51:50, valid | thickness_mae: 0.0678 - intensity_mae: 1.9450 - digit_acc: 0.9929
+03-Jan-23 02:51:50, Epoch 78:
+03-Jan-23 02:53:06, loss | train: -3.7807 - valid: -3.6732 - steps: 146250
+03-Jan-23 02:53:08, valid | thickness_mae: 0.0674 - intensity_mae: 1.9211 - digit_acc: 0.9930
+03-Jan-23 02:53:08, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 02:53:08, Epoch 79:
+03-Jan-23 02:54:25, loss | train: -3.8036 - valid: -3.6483 - steps: 148125
+03-Jan-23 02:54:27, valid | thickness_mae: 0.0674 - intensity_mae: 1.9265 - digit_acc: 0.9927
+03-Jan-23 02:54:27, Epoch 80:
+03-Jan-23 02:55:43, loss | train: -3.8335 - valid: -3.6538 - steps: 150000
+03-Jan-23 02:55:45, valid | thickness_mae: 0.0676 - intensity_mae: 1.9031 - digit_acc: 0.9931
+03-Jan-23 02:55:45, Epoch 81:
+03-Jan-23 02:57:01, loss | train: -3.8187 - valid: -3.6746 - steps: 151875
+03-Jan-23 02:57:03, valid | thickness_mae: 0.0673 - intensity_mae: 1.8978 - digit_acc: 0.9936
+03-Jan-23 02:57:03, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 02:57:03, Epoch 82:
+03-Jan-23 02:58:19, loss | train: -3.8498 - valid: -3.6647 - steps: 153750
+03-Jan-23 02:58:21, valid | thickness_mae: 0.0673 - intensity_mae: 1.9241 - digit_acc: 0.9930
+03-Jan-23 02:58:21, Epoch 83:
+03-Jan-23 02:59:37, loss | train: -3.8382 - valid: -3.6517 - steps: 155625
+03-Jan-23 02:59:39, valid | thickness_mae: 0.0671 - intensity_mae: 1.9106 - digit_acc: 0.9936
+03-Jan-23 02:59:39, Epoch 84:
+03-Jan-23 03:00:55, loss | train: -3.8489 - valid: -3.6630 - steps: 157500
+03-Jan-23 03:00:57, valid | thickness_mae: 0.0670 - intensity_mae: 1.8878 - digit_acc: 0.9932
+03-Jan-23 03:00:57, Epoch 85:
+03-Jan-23 03:02:13, loss | train: -3.8249 - valid: -3.6847 - steps: 159375
+03-Jan-23 03:02:15, valid | thickness_mae: 0.0672 - intensity_mae: 1.8947 - digit_acc: 0.9929
+03-Jan-23 03:02:15, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 03:02:15, Epoch 86:
+03-Jan-23 03:03:32, loss | train: -3.8505 - valid: -3.7014 - steps: 161250
+03-Jan-23 03:03:33, valid | thickness_mae: 0.0669 - intensity_mae: 1.8898 - digit_acc: 0.9928
+03-Jan-23 03:03:33, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 03:03:33, Epoch 87:
+03-Jan-23 03:04:50, loss | train: -3.8650 - valid: -3.6959 - steps: 163125
+03-Jan-23 03:04:52, valid | thickness_mae: 0.0669 - intensity_mae: 1.8648 - digit_acc: 0.9931
+03-Jan-23 03:04:52, Epoch 88:
+03-Jan-23 03:06:08, loss | train: -3.8869 - valid: -3.6963 - steps: 165000
+03-Jan-23 03:06:10, valid | thickness_mae: 0.0667 - intensity_mae: 1.8786 - digit_acc: 0.9923
+03-Jan-23 03:06:10, Epoch 89:
+03-Jan-23 03:07:26, loss | train: -3.9131 - valid: -3.7117 - steps: 166875
+03-Jan-23 03:07:28, valid | thickness_mae: 0.0667 - intensity_mae: 1.8828 - digit_acc: 0.9928
+03-Jan-23 03:07:28, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 03:07:28, Epoch 90:
+03-Jan-23 03:08:44, loss | train: -3.9533 - valid: -3.7461 - steps: 168750
+03-Jan-23 03:08:46, valid | thickness_mae: 0.0667 - intensity_mae: 1.8563 - digit_acc: 0.9926
+03-Jan-23 03:08:46, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 03:08:46, Epoch 91:
+03-Jan-23 03:10:02, loss | train: -3.8784 - valid: -3.7061 - steps: 170625
+03-Jan-23 03:10:04, valid | thickness_mae: 0.0665 - intensity_mae: 1.8697 - digit_acc: 0.9930
+03-Jan-23 03:10:04, Epoch 92:
+03-Jan-23 03:11:20, loss | train: -3.9358 - valid: -3.6945 - steps: 172500
+03-Jan-23 03:11:22, valid | thickness_mae: 0.0668 - intensity_mae: 1.8819 - digit_acc: 0.9931
+03-Jan-23 03:11:22, Epoch 93:
+03-Jan-23 03:12:38, loss | train: -3.9187 - valid: -3.7113 - steps: 174375
+03-Jan-23 03:12:40, valid | thickness_mae: 0.0665 - intensity_mae: 1.8465 - digit_acc: 0.9929
+03-Jan-23 03:12:40, Epoch 94:
+03-Jan-23 03:13:56, loss | train: -3.9555 - valid: -3.7181 - steps: 176250
+03-Jan-23 03:13:58, valid | thickness_mae: 0.0665 - intensity_mae: 1.8457 - digit_acc: 0.9926
+03-Jan-23 03:13:58, Epoch 95:
+03-Jan-23 03:15:14, loss | train: -3.9619 - valid: -3.7303 - steps: 178125
+03-Jan-23 03:15:16, valid | thickness_mae: 0.0666 - intensity_mae: 1.8307 - digit_acc: 0.9930
+03-Jan-23 03:15:16, Epoch 96:
+03-Jan-23 03:16:32, loss | train: -3.9637 - valid: -3.7447 - steps: 180000
+03-Jan-23 03:16:34, valid | thickness_mae: 0.0665 - intensity_mae: 1.8287 - digit_acc: 0.9926
+03-Jan-23 03:16:34, Epoch 97:
+03-Jan-23 03:17:51, loss | train: -3.9725 - valid: -3.7357 - steps: 181875
+03-Jan-23 03:17:52, valid | thickness_mae: 0.0664 - intensity_mae: 1.8378 - digit_acc: 0.9937
+03-Jan-23 03:17:52, Epoch 98:
+03-Jan-23 03:19:09, loss | train: -3.9686 - valid: -3.7493 - steps: 183750
+03-Jan-23 03:19:11, valid | thickness_mae: 0.0663 - intensity_mae: 1.8159 - digit_acc: 0.9935
+03-Jan-23 03:19:11, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 03:19:11, Epoch 99:
+03-Jan-23 03:20:27, loss | train: -3.9529 - valid: -3.7053 - steps: 185625
+03-Jan-23 03:20:29, valid | thickness_mae: 0.0663 - intensity_mae: 1.8145 - digit_acc: 0.9931
+03-Jan-23 03:20:29, Epoch 100:
+03-Jan-23 03:21:45, loss | train: -3.9738 - valid: -3.7368 - steps: 187500
+03-Jan-23 03:21:47, valid | thickness_mae: 0.0665 - intensity_mae: 1.8027 - digit_acc: 0.9930
+03-Jan-23 03:21:47, Epoch 101:
+03-Jan-23 03:23:03, loss | train: -3.9900 - valid: -3.7136 - steps: 189375
+03-Jan-23 03:23:05, valid | thickness_mae: 0.0664 - intensity_mae: 1.8281 - digit_acc: 0.9933
+03-Jan-23 03:23:05, Epoch 102:
+03-Jan-23 03:24:21, loss | train: -4.0224 - valid: -3.7536 - steps: 191250
+03-Jan-23 03:24:23, valid | thickness_mae: 0.0662 - intensity_mae: 1.8105 - digit_acc: 0.9937
+03-Jan-23 03:24:23, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 03:24:23, Epoch 103:
+03-Jan-23 03:25:39, loss | train: -3.9842 - valid: -3.7500 - steps: 193125
+03-Jan-23 03:25:41, valid | thickness_mae: 0.0661 - intensity_mae: 1.7979 - digit_acc: 0.9932
+03-Jan-23 03:25:41, Epoch 104:
+03-Jan-23 03:26:57, loss | train: -4.0246 - valid: -3.7704 - steps: 195000
+03-Jan-23 03:26:59, valid | thickness_mae: 0.0660 - intensity_mae: 1.8032 - digit_acc: 0.9934
+03-Jan-23 03:26:59, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 03:26:59, Epoch 105:
+03-Jan-23 03:28:16, loss | train: -4.0661 - valid: -3.7907 - steps: 196875
+03-Jan-23 03:28:18, valid | thickness_mae: 0.0660 - intensity_mae: 1.7864 - digit_acc: 0.9936
+03-Jan-23 03:28:18, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 03:28:18, Epoch 106:
+03-Jan-23 03:29:34, loss | train: -4.0167 - valid: -3.7718 - steps: 198750
+03-Jan-23 03:29:36, valid | thickness_mae: 0.0660 - intensity_mae: 1.7815 - digit_acc: 0.9935
+03-Jan-23 03:29:36, Epoch 107:
+03-Jan-23 03:30:52, loss | train: -4.0354 - valid: -3.7833 - steps: 200625
+03-Jan-23 03:30:54, valid | thickness_mae: 0.0659 - intensity_mae: 1.7766 - digit_acc: 0.9936
+03-Jan-23 03:30:54, Epoch 108:
+03-Jan-23 03:32:11, loss | train: -4.0600 - valid: -3.7703 - steps: 202500
+03-Jan-23 03:32:12, valid | thickness_mae: 0.0660 - intensity_mae: 1.7756 - digit_acc: 0.9934
+03-Jan-23 03:32:12, Epoch 109:
+03-Jan-23 03:33:29, loss | train: -4.0585 - valid: -3.7674 - steps: 204375
+03-Jan-23 03:33:30, valid | thickness_mae: 0.0659 - intensity_mae: 1.7595 - digit_acc: 0.9935
+03-Jan-23 03:33:30, Epoch 110:
+03-Jan-23 03:34:47, loss | train: -4.0844 - valid: -3.7808 - steps: 206250
+03-Jan-23 03:34:48, valid | thickness_mae: 0.0659 - intensity_mae: 1.7822 - digit_acc: 0.9937
+03-Jan-23 03:34:48, Epoch 111:
+03-Jan-23 03:36:05, loss | train: -4.0905 - valid: -3.7659 - steps: 208125
+03-Jan-23 03:36:07, valid | thickness_mae: 0.0656 - intensity_mae: 1.7658 - digit_acc: 0.9937
+03-Jan-23 03:36:07, Epoch 112:
+03-Jan-23 03:37:23, loss | train: -4.0638 - valid: -3.7826 - steps: 210000
+03-Jan-23 03:37:25, valid | thickness_mae: 0.0658 - intensity_mae: 1.7584 - digit_acc: 0.9933
+03-Jan-23 03:37:25, Epoch 113:
+03-Jan-23 03:38:41, loss | train: -4.0931 - valid: -3.7530 - steps: 211875
+03-Jan-23 03:38:43, valid | thickness_mae: 0.0656 - intensity_mae: 1.7479 - digit_acc: 0.9931
+03-Jan-23 03:38:43, Epoch 114:
+03-Jan-23 03:39:59, loss | train: -4.1148 - valid: -3.7577 - steps: 213750
+03-Jan-23 03:40:01, valid | thickness_mae: 0.0656 - intensity_mae: 1.7395 - digit_acc: 0.9928
+03-Jan-23 03:40:01, Epoch 115:
+03-Jan-23 03:41:17, loss | train: -4.1225 - valid: -3.7932 - steps: 215625
+03-Jan-23 03:41:19, valid | thickness_mae: 0.0654 - intensity_mae: 1.7444 - digit_acc: 0.9934
+03-Jan-23 03:41:19, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 03:41:19, Epoch 116:
+03-Jan-23 03:42:35, loss | train: -4.0831 - valid: -3.7564 - steps: 217500
+03-Jan-23 03:42:37, valid | thickness_mae: 0.0656 - intensity_mae: 1.7406 - digit_acc: 0.9930
+03-Jan-23 03:42:37, Epoch 117:
+03-Jan-23 03:43:54, loss | train: -4.0789 - valid: -3.7798 - steps: 219375
+03-Jan-23 03:43:55, valid | thickness_mae: 0.0657 - intensity_mae: 1.7450 - digit_acc: 0.9929
+03-Jan-23 03:43:55, Epoch 118:
+03-Jan-23 03:45:12, loss | train: -4.1324 - valid: -3.7999 - steps: 221250
+03-Jan-23 03:45:13, valid | thickness_mae: 0.0655 - intensity_mae: 1.7390 - digit_acc: 0.9933
+03-Jan-23 03:45:13, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 03:45:13, Epoch 119:
+03-Jan-23 03:46:30, loss | train: -4.1462 - valid: -3.8029 - steps: 223125
+03-Jan-23 03:46:32, valid | thickness_mae: 0.0654 - intensity_mae: 1.7202 - digit_acc: 0.9937
+03-Jan-23 03:46:32, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 03:46:32, Epoch 120:
+03-Jan-23 03:47:48, loss | train: -4.1348 - valid: -3.7895 - steps: 225000
+03-Jan-23 03:47:50, valid | thickness_mae: 0.0653 - intensity_mae: 1.7302 - digit_acc: 0.9930
+03-Jan-23 03:47:50, Epoch 121:
+03-Jan-23 03:49:06, loss | train: -4.1274 - valid: -3.7904 - steps: 226875
+03-Jan-23 03:49:08, valid | thickness_mae: 0.0653 - intensity_mae: 1.7023 - digit_acc: 0.9931
+03-Jan-23 03:49:08, Epoch 122:
+03-Jan-23 03:50:25, loss | train: -4.1429 - valid: -3.7902 - steps: 228750
+03-Jan-23 03:50:26, valid | thickness_mae: 0.0654 - intensity_mae: 1.7076 - digit_acc: 0.9935
+03-Jan-23 03:50:26, Epoch 123:
+03-Jan-23 03:51:43, loss | train: -4.1492 - valid: -3.8013 - steps: 230625
+03-Jan-23 03:51:44, valid | thickness_mae: 0.0654 - intensity_mae: 1.7038 - digit_acc: 0.9928
+03-Jan-23 03:51:44, Epoch 124:
+03-Jan-23 03:53:01, loss | train: -4.1782 - valid: -3.7664 - steps: 232500
+03-Jan-23 03:53:02, valid | thickness_mae: 0.0654 - intensity_mae: 1.7309 - digit_acc: 0.9929
+03-Jan-23 03:53:02, Epoch 125:
+03-Jan-23 03:54:19, loss | train: -4.1380 - valid: -3.7576 - steps: 234375
+03-Jan-23 03:54:21, valid | thickness_mae: 0.0652 - intensity_mae: 1.7077 - digit_acc: 0.9926
+03-Jan-23 03:54:21, Epoch 126:
+03-Jan-23 03:55:37, loss | train: -4.1450 - valid: -3.7877 - steps: 236250
+03-Jan-23 03:55:39, valid | thickness_mae: 0.0650 - intensity_mae: 1.6835 - digit_acc: 0.9935
+03-Jan-23 03:55:39, Epoch 127:
+03-Jan-23 03:56:55, loss | train: -4.1926 - valid: -3.8018 - steps: 238125
+03-Jan-23 03:56:57, valid | thickness_mae: 0.0651 - intensity_mae: 1.6833 - digit_acc: 0.9931
+03-Jan-23 03:56:57, Epoch 128:
+03-Jan-23 03:58:13, loss | train: -4.1986 - valid: -3.8290 - steps: 240000
+03-Jan-23 03:58:15, valid | thickness_mae: 0.0652 - intensity_mae: 1.6811 - digit_acc: 0.9931
+03-Jan-23 03:58:15, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 03:58:15, Epoch 129:
+03-Jan-23 03:59:31, loss | train: -4.1804 - valid: -3.8219 - steps: 241875
+03-Jan-23 03:59:33, valid | thickness_mae: 0.0652 - intensity_mae: 1.6762 - digit_acc: 0.9934
+03-Jan-23 03:59:33, Epoch 130:
+03-Jan-23 04:00:49, loss | train: -4.1750 - valid: -3.8258 - steps: 243750
+03-Jan-23 04:00:51, valid | thickness_mae: 0.0651 - intensity_mae: 1.6859 - digit_acc: 0.9927
+03-Jan-23 04:00:51, Epoch 131:
+03-Jan-23 04:02:07, loss | train: -4.1788 - valid: -3.7739 - steps: 245625
+03-Jan-23 04:02:09, valid | thickness_mae: 0.0652 - intensity_mae: 1.7079 - digit_acc: 0.9924
+03-Jan-23 04:02:09, Epoch 132:
+03-Jan-23 04:03:25, loss | train: -4.2133 - valid: -3.8035 - steps: 247500
+03-Jan-23 04:03:27, valid | thickness_mae: 0.0649 - intensity_mae: 1.6866 - digit_acc: 0.9931
+03-Jan-23 04:03:27, Epoch 133:
+03-Jan-23 04:04:43, loss | train: -4.1999 - valid: -3.7964 - steps: 249375
+03-Jan-23 04:04:45, valid | thickness_mae: 0.0649 - intensity_mae: 1.6794 - digit_acc: 0.9929
+03-Jan-23 04:04:45, Epoch 134:
+03-Jan-23 04:06:02, loss | train: -4.2243 - valid: -3.8305 - steps: 251250
+03-Jan-23 04:06:03, valid | thickness_mae: 0.0647 - intensity_mae: 1.6501 - digit_acc: 0.9927
+03-Jan-23 04:06:03, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 04:06:03, Epoch 135:
+03-Jan-23 04:07:20, loss | train: -4.2386 - valid: -3.7765 - steps: 253125
+03-Jan-23 04:07:22, valid | thickness_mae: 0.0650 - intensity_mae: 1.6616 - digit_acc: 0.9923
+03-Jan-23 04:07:22, Epoch 136:
+03-Jan-23 04:08:38, loss | train: -4.2169 - valid: -3.7982 - steps: 255000
+03-Jan-23 04:08:40, valid | thickness_mae: 0.0649 - intensity_mae: 1.6646 - digit_acc: 0.9926
+03-Jan-23 04:08:40, Epoch 137:
+03-Jan-23 04:09:56, loss | train: -4.1954 - valid: -3.7753 - steps: 256875
+03-Jan-23 04:09:58, valid | thickness_mae: 0.0646 - intensity_mae: 1.6947 - digit_acc: 0.9926
+03-Jan-23 04:09:58, Epoch 138:
+03-Jan-23 04:11:14, loss | train: -4.2410 - valid: -3.7512 - steps: 258750
+03-Jan-23 04:11:16, valid | thickness_mae: 0.0647 - intensity_mae: 1.6853 - digit_acc: 0.9927
+03-Jan-23 04:11:16, Epoch 139:
+03-Jan-23 04:12:32, loss | train: -4.2520 - valid: -3.7669 - steps: 260625
+03-Jan-23 04:12:34, valid | thickness_mae: 0.0647 - intensity_mae: 1.7086 - digit_acc: 0.9931
+03-Jan-23 04:12:34, Epoch 140:
+03-Jan-23 04:13:50, loss | train: -4.2407 - valid: -3.7837 - steps: 262500
+03-Jan-23 04:13:52, valid | thickness_mae: 0.0646 - intensity_mae: 1.6724 - digit_acc: 0.9926
+03-Jan-23 04:13:52, Epoch 141:
+03-Jan-23 04:15:08, loss | train: -4.2580 - valid: -3.7771 - steps: 264375
+03-Jan-23 04:15:10, valid | thickness_mae: 0.0648 - intensity_mae: 1.6638 - digit_acc: 0.9927
+03-Jan-23 04:15:10, Epoch 142:
+03-Jan-23 04:16:26, loss | train: -4.2410 - valid: -3.7389 - steps: 266250
+03-Jan-23 04:16:28, valid | thickness_mae: 0.0646 - intensity_mae: 1.6713 - digit_acc: 0.9919
+03-Jan-23 04:16:28, Epoch 143:
+03-Jan-23 04:17:45, loss | train: -4.2703 - valid: -3.7898 - steps: 268125
+03-Jan-23 04:17:46, valid | thickness_mae: 0.0647 - intensity_mae: 1.6791 - digit_acc: 0.9927
+03-Jan-23 04:17:46, Epoch 144:
+03-Jan-23 04:19:03, loss | train: -4.2764 - valid: -3.7801 - steps: 270000
+03-Jan-23 04:19:05, valid | thickness_mae: 0.0646 - intensity_mae: 1.6675 - digit_acc: 0.9926
+03-Jan-23 04:19:05, Epoch 145:
+03-Jan-23 04:20:21, loss | train: -4.2752 - valid: -3.8146 - steps: 271875
+03-Jan-23 04:20:23, valid | thickness_mae: 0.0644 - intensity_mae: 1.6328 - digit_acc: 0.9927
+03-Jan-23 04:20:23, Epoch 146:
+03-Jan-23 04:21:39, loss | train: -4.2680 - valid: -3.8236 - steps: 273750
+03-Jan-23 04:21:41, valid | thickness_mae: 0.0644 - intensity_mae: 1.6384 - digit_acc: 0.9931
+03-Jan-23 04:21:41, Epoch 147:
+03-Jan-23 04:22:57, loss | train: -4.2837 - valid: -3.8158 - steps: 275625
+03-Jan-23 04:22:59, valid | thickness_mae: 0.0644 - intensity_mae: 1.6323 - digit_acc: 0.9929
+03-Jan-23 04:22:59, Epoch 148:
+03-Jan-23 04:24:15, loss | train: -4.2645 - valid: -3.7727 - steps: 277500
+03-Jan-23 04:24:17, valid | thickness_mae: 0.0644 - intensity_mae: 1.6521 - digit_acc: 0.9928
+03-Jan-23 04:24:17, Epoch 149:
+03-Jan-23 04:25:33, loss | train: -4.3079 - valid: -3.8021 - steps: 279375
+03-Jan-23 04:25:35, valid | thickness_mae: 0.0644 - intensity_mae: 1.6242 - digit_acc: 0.9933
+03-Jan-23 04:25:35, Epoch 150:
+03-Jan-23 04:26:51, loss | train: -4.3051 - valid: -3.7862 - steps: 281250
+03-Jan-23 04:26:53, valid | thickness_mae: 0.0647 - intensity_mae: 1.6381 - digit_acc: 0.9930
+03-Jan-23 04:26:53, Epoch 151:
+03-Jan-23 04:28:09, loss | train: -4.3113 - valid: -3.7403 - steps: 283125
+03-Jan-23 04:28:11, valid | thickness_mae: 0.0645 - intensity_mae: 1.6759 - digit_acc: 0.9928
+03-Jan-23 04:28:11, Epoch 152:
+03-Jan-23 04:29:27, loss | train: -4.2701 - valid: -3.8017 - steps: 285000
+03-Jan-23 04:29:29, valid | thickness_mae: 0.0645 - intensity_mae: 1.6505 - digit_acc: 0.9933
+03-Jan-23 04:29:29, Epoch 153:
+03-Jan-23 04:30:46, loss | train: -4.3344 - valid: -3.7821 - steps: 286875
+03-Jan-23 04:30:47, valid | thickness_mae: 0.0642 - intensity_mae: 1.6292 - digit_acc: 0.9929
+03-Jan-23 04:30:47, Epoch 154:
+03-Jan-23 04:32:04, loss | train: -4.2851 - valid: -3.7465 - steps: 288750
+03-Jan-23 04:32:05, valid | thickness_mae: 0.0642 - intensity_mae: 1.6350 - digit_acc: 0.9930
+03-Jan-23 04:32:05, Epoch 155:
+03-Jan-23 04:33:22, loss | train: -4.3120 - valid: -3.8170 - steps: 290625
+03-Jan-23 04:33:24, valid | thickness_mae: 0.0641 - intensity_mae: 1.6127 - digit_acc: 0.9926
+03-Jan-23 04:33:24, Epoch 156:
+03-Jan-23 04:34:40, loss | train: -4.3035 - valid: -3.8144 - steps: 292500
+03-Jan-23 04:34:42, valid | thickness_mae: 0.0642 - intensity_mae: 1.6162 - digit_acc: 0.9929
+03-Jan-23 04:34:42, Epoch 157:
+03-Jan-23 04:35:58, loss | train: -4.3305 - valid: -3.8632 - steps: 294375
+03-Jan-23 04:36:00, valid | thickness_mae: 0.0640 - intensity_mae: 1.6144 - digit_acc: 0.9936
+03-Jan-23 04:36:00, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 04:36:00, Epoch 158:
+03-Jan-23 04:37:16, loss | train: -4.3002 - valid: -3.7852 - steps: 296250
+03-Jan-23 04:37:18, valid | thickness_mae: 0.0641 - intensity_mae: 1.6428 - digit_acc: 0.9924
+03-Jan-23 04:37:18, Epoch 159:
+03-Jan-23 04:38:35, loss | train: -4.3618 - valid: -3.8423 - steps: 298125
+03-Jan-23 04:38:36, valid | thickness_mae: 0.0638 - intensity_mae: 1.6189 - digit_acc: 0.9927
+03-Jan-23 04:38:36, Epoch 160:
+03-Jan-23 04:39:53, loss | train: -4.3513 - valid: -3.8434 - steps: 300000
+03-Jan-23 04:39:54, valid | thickness_mae: 0.0639 - intensity_mae: 1.6161 - digit_acc: 0.9931
+03-Jan-23 04:39:54, Epoch 161:
+03-Jan-23 04:41:11, loss | train: -4.3761 - valid: -3.7910 - steps: 301875
+03-Jan-23 04:41:13, valid | thickness_mae: 0.0638 - intensity_mae: 1.6196 - digit_acc: 0.9931
+03-Jan-23 04:41:13, Epoch 162:
+03-Jan-23 04:42:29, loss | train: -4.3770 - valid: -3.7792 - steps: 303750
+03-Jan-23 04:42:31, valid | thickness_mae: 0.0639 - intensity_mae: 1.6234 - digit_acc: 0.9931
+03-Jan-23 04:42:31, Epoch 163:
+03-Jan-23 04:43:47, loss | train: -4.3530 - valid: -3.8352 - steps: 305625
+03-Jan-23 04:43:49, valid | thickness_mae: 0.0640 - intensity_mae: 1.6511 - digit_acc: 0.9933
+03-Jan-23 04:43:49, Epoch 164:
+03-Jan-23 04:45:05, loss | train: -4.3536 - valid: -3.8018 - steps: 307500
+03-Jan-23 04:45:07, valid | thickness_mae: 0.0638 - intensity_mae: 1.6443 - digit_acc: 0.9929
+03-Jan-23 04:45:07, Epoch 165:
+03-Jan-23 04:46:23, loss | train: -4.3399 - valid: -3.7842 - steps: 309375
+03-Jan-23 04:46:25, valid | thickness_mae: 0.0640 - intensity_mae: 1.6391 - digit_acc: 0.9923
+03-Jan-23 04:46:25, Epoch 166:
+03-Jan-23 04:47:42, loss | train: -4.3582 - valid: -3.7663 - steps: 311250
+03-Jan-23 04:47:43, valid | thickness_mae: 0.0640 - intensity_mae: 1.6489 - digit_acc: 0.9918
+03-Jan-23 04:47:43, Epoch 167:
+03-Jan-23 04:49:00, loss | train: -4.3678 - valid: -3.7929 - steps: 313125
+03-Jan-23 04:49:01, valid | thickness_mae: 0.0641 - intensity_mae: 1.6088 - digit_acc: 0.9924
+03-Jan-23 04:49:01, Epoch 168:
+03-Jan-23 04:50:18, loss | train: -4.3696 - valid: -3.8115 - steps: 315000
+03-Jan-23 04:50:19, valid | thickness_mae: 0.0638 - intensity_mae: 1.6143 - digit_acc: 0.9925
+03-Jan-23 04:50:19, Epoch 169:
+03-Jan-23 04:51:36, loss | train: -4.3928 - valid: -3.8268 - steps: 316875
+03-Jan-23 04:51:38, valid | thickness_mae: 0.0638 - intensity_mae: 1.5987 - digit_acc: 0.9925
+03-Jan-23 04:51:38, Epoch 170:
+03-Jan-23 04:52:54, loss | train: -4.3745 - valid: -3.7804 - steps: 318750
+03-Jan-23 04:52:56, valid | thickness_mae: 0.0640 - intensity_mae: 1.6283 - digit_acc: 0.9924
+03-Jan-23 04:52:56, Epoch 171:
+03-Jan-23 04:54:12, loss | train: -4.3874 - valid: -3.7854 - steps: 320625
+03-Jan-23 04:54:14, valid | thickness_mae: 0.0640 - intensity_mae: 1.6338 - digit_acc: 0.9927
+03-Jan-23 04:54:14, Epoch 172:
+03-Jan-23 04:55:30, loss | train: -4.4046 - valid: -3.7753 - steps: 322500
+03-Jan-23 04:55:32, valid | thickness_mae: 0.0638 - intensity_mae: 1.6353 - digit_acc: 0.9933
+03-Jan-23 04:55:32, Epoch 173:
+03-Jan-23 04:56:49, loss | train: -4.3628 - valid: -3.8251 - steps: 324375
+03-Jan-23 04:56:50, valid | thickness_mae: 0.0639 - intensity_mae: 1.6239 - digit_acc: 0.9931
+03-Jan-23 04:56:50, Epoch 174:
+03-Jan-23 04:58:07, loss | train: -4.3724 - valid: -3.8939 - steps: 326250
+03-Jan-23 04:58:08, valid | thickness_mae: 0.0637 - intensity_mae: 1.5951 - digit_acc: 0.9930
+03-Jan-23 04:58:08, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 04:58:08, Epoch 175:
+03-Jan-23 04:59:25, loss | train: -4.3957 - valid: -3.8433 - steps: 328125
+03-Jan-23 04:59:27, valid | thickness_mae: 0.0635 - intensity_mae: 1.5936 - digit_acc: 0.9931
+03-Jan-23 04:59:27, Epoch 176:
+03-Jan-23 05:00:43, loss | train: -4.4116 - valid: -3.8602 - steps: 330000
+03-Jan-23 05:00:45, valid | thickness_mae: 0.0636 - intensity_mae: 1.6110 - digit_acc: 0.9936
+03-Jan-23 05:00:45, Epoch 177:
+03-Jan-23 05:02:01, loss | train: -4.4029 - valid: -3.8327 - steps: 331875
+03-Jan-23 05:02:03, valid | thickness_mae: 0.0635 - intensity_mae: 1.5969 - digit_acc: 0.9929
+03-Jan-23 05:02:03, Epoch 178:
+03-Jan-23 05:03:19, loss | train: -4.4164 - valid: -3.8800 - steps: 333750
+03-Jan-23 05:03:21, valid | thickness_mae: 0.0637 - intensity_mae: 1.5933 - digit_acc: 0.9934
+03-Jan-23 05:03:21, Epoch 179:
+03-Jan-23 05:04:38, loss | train: -4.3866 - valid: -3.8686 - steps: 335625
+03-Jan-23 05:04:39, valid | thickness_mae: 0.0637 - intensity_mae: 1.6300 - digit_acc: 0.9935
+03-Jan-23 05:04:39, Epoch 180:
+03-Jan-23 05:05:55, loss | train: -4.4242 - valid: -3.8326 - steps: 337500
+03-Jan-23 05:05:57, valid | thickness_mae: 0.0637 - intensity_mae: 1.6016 - digit_acc: 0.9934
+03-Jan-23 05:05:57, Epoch 181:
+03-Jan-23 05:07:14, loss | train: -4.4169 - valid: -3.7800 - steps: 339375
+03-Jan-23 05:07:15, valid | thickness_mae: 0.0634 - intensity_mae: 1.6116 - digit_acc: 0.9929
+03-Jan-23 05:07:15, Epoch 182:
+03-Jan-23 05:08:32, loss | train: -4.4334 - valid: -3.7883 - steps: 341250
+03-Jan-23 05:08:34, valid | thickness_mae: 0.0635 - intensity_mae: 1.6286 - digit_acc: 0.9930
+03-Jan-23 05:08:34, Epoch 183:
+03-Jan-23 05:09:50, loss | train: -4.4298 - valid: -3.7782 - steps: 343125
+03-Jan-23 05:09:52, valid | thickness_mae: 0.0638 - intensity_mae: 1.6118 - digit_acc: 0.9928
+03-Jan-23 05:09:52, Epoch 184:
+03-Jan-23 05:11:08, loss | train: -4.4368 - valid: -3.7868 - steps: 345000
+03-Jan-23 05:11:10, valid | thickness_mae: 0.0634 - intensity_mae: 1.6031 - digit_acc: 0.9924
+03-Jan-23 05:11:10, Epoch 185:
+03-Jan-23 05:12:26, loss | train: -4.4281 - valid: -3.7863 - steps: 346875
+03-Jan-23 05:12:28, valid | thickness_mae: 0.0634 - intensity_mae: 1.6014 - digit_acc: 0.9922
+03-Jan-23 05:12:28, Epoch 186:
+03-Jan-23 05:13:45, loss | train: -4.4188 - valid: -3.7842 - steps: 348750
+03-Jan-23 05:13:46, valid | thickness_mae: 0.0635 - intensity_mae: 1.6003 - digit_acc: 0.9925
+03-Jan-23 05:13:46, Epoch 187:
+03-Jan-23 05:15:03, loss | train: -4.4524 - valid: -3.7366 - steps: 350625
+03-Jan-23 05:15:04, valid | thickness_mae: 0.0636 - intensity_mae: 1.6031 - digit_acc: 0.9919
+03-Jan-23 05:15:04, Epoch 188:
+03-Jan-23 05:16:21, loss | train: -4.4211 - valid: -3.7794 - steps: 352500
+03-Jan-23 05:16:23, valid | thickness_mae: 0.0634 - intensity_mae: 1.6005 - digit_acc: 0.9926
+03-Jan-23 05:16:23, Epoch 189:
+03-Jan-23 05:17:39, loss | train: -4.4376 - valid: -3.7826 - steps: 354375
+03-Jan-23 05:17:41, valid | thickness_mae: 0.0634 - intensity_mae: 1.6083 - digit_acc: 0.9924
+03-Jan-23 05:17:41, Epoch 190:
+03-Jan-23 05:18:57, loss | train: -4.4501 - valid: -3.7978 - steps: 356250
+03-Jan-23 05:18:59, valid | thickness_mae: 0.0635 - intensity_mae: 1.6007 - digit_acc: 0.9928
+03-Jan-23 05:18:59, Epoch 191:
+03-Jan-23 05:20:15, loss | train: -4.4386 - valid: -3.8118 - steps: 358125
+03-Jan-23 05:20:17, valid | thickness_mae: 0.0632 - intensity_mae: 1.5904 - digit_acc: 0.9930
+03-Jan-23 05:20:17, Epoch 192:
+03-Jan-23 05:21:34, loss | train: -4.4589 - valid: -3.8504 - steps: 360000
+03-Jan-23 05:21:35, valid | thickness_mae: 0.0632 - intensity_mae: 1.5853 - digit_acc: 0.9936
+03-Jan-23 05:21:35, Epoch 193:
+03-Jan-23 05:22:52, loss | train: -4.4422 - valid: -3.7686 - steps: 361875
+03-Jan-23 05:22:53, valid | thickness_mae: 0.0630 - intensity_mae: 1.5984 - digit_acc: 0.9930
+03-Jan-23 05:22:53, Epoch 194:
+03-Jan-23 05:24:10, loss | train: -4.4721 - valid: -3.7531 - steps: 363750
+03-Jan-23 05:24:11, valid | thickness_mae: 0.0633 - intensity_mae: 1.5883 - digit_acc: 0.9926
+03-Jan-23 05:24:11, Epoch 195:
+03-Jan-23 05:25:28, loss | train: -4.4772 - valid: -3.7351 - steps: 365625
+03-Jan-23 05:25:30, valid | thickness_mae: 0.0632 - intensity_mae: 1.6224 - digit_acc: 0.9933
+03-Jan-23 05:25:30, Epoch 196:
+03-Jan-23 05:26:46, loss | train: -4.4509 - valid: -3.7638 - steps: 367500
+03-Jan-23 05:26:48, valid | thickness_mae: 0.0633 - intensity_mae: 1.6151 - digit_acc: 0.9932
+03-Jan-23 05:26:48, Epoch 197:
+03-Jan-23 05:28:04, loss | train: -4.4643 - valid: -3.7341 - steps: 369375
+03-Jan-23 05:28:06, valid | thickness_mae: 0.0632 - intensity_mae: 1.6010 - digit_acc: 0.9930
+03-Jan-23 05:28:06, Epoch 198:
+03-Jan-23 05:29:23, loss | train: -4.4354 - valid: -3.7769 - steps: 371250
+03-Jan-23 05:29:24, valid | thickness_mae: 0.0632 - intensity_mae: 1.5969 - digit_acc: 0.9927
+03-Jan-23 05:29:24, Epoch 199:
+03-Jan-23 05:30:41, loss | train: -4.4628 - valid: -3.7347 - steps: 373125
+03-Jan-23 05:30:42, valid | thickness_mae: 0.0633 - intensity_mae: 1.6015 - digit_acc: 0.9929
+03-Jan-23 05:30:42, Epoch 200:
+03-Jan-23 05:31:59, loss | train: -4.4759 - valid: -3.7258 - steps: 375000
+03-Jan-23 05:32:01, valid | thickness_mae: 0.0633 - intensity_mae: 1.5996 - digit_acc: 0.9923
+03-Jan-23 05:32:01, Epoch 201:
+03-Jan-23 05:33:17, loss | train: -4.4801 - valid: -3.7566 - steps: 376875
+03-Jan-23 05:33:19, valid | thickness_mae: 0.0630 - intensity_mae: 1.5856 - digit_acc: 0.9928
+03-Jan-23 05:33:19, Epoch 202:
+03-Jan-23 05:34:35, loss | train: -4.4645 - valid: -3.7362 - steps: 378750
+03-Jan-23 05:34:37, valid | thickness_mae: 0.0631 - intensity_mae: 1.5877 - digit_acc: 0.9924
+03-Jan-23 05:34:37, Epoch 203:
+03-Jan-23 05:35:53, loss | train: -4.4760 - valid: -3.7427 - steps: 380625
+03-Jan-23 05:35:55, valid | thickness_mae: 0.0630 - intensity_mae: 1.6016 - digit_acc: 0.9922
+03-Jan-23 05:35:55, Epoch 204:
+03-Jan-23 05:37:12, loss | train: -4.4862 - valid: -3.7794 - steps: 382500
+03-Jan-23 05:37:13, valid | thickness_mae: 0.0628 - intensity_mae: 1.5781 - digit_acc: 0.9927
+03-Jan-23 05:37:13, Epoch 205:
+03-Jan-23 05:38:30, loss | train: -4.4827 - valid: -3.9186 - steps: 384375
+03-Jan-23 05:38:32, valid | thickness_mae: 0.0628 - intensity_mae: 1.5437 - digit_acc: 0.9932
+03-Jan-23 05:38:32, Model saved: ../../checkpoints/t_i_d/sup_aux/checkpoint.pt
+03-Jan-23 05:38:32, Epoch 206:
+03-Jan-23 05:39:48, loss | train: -4.4873 - valid: -3.8261 - steps: 386250
+03-Jan-23 05:39:50, valid | thickness_mae: 0.0627 - intensity_mae: 1.5781 - digit_acc: 0.9931
+03-Jan-23 05:39:50, Epoch 207:
+03-Jan-23 05:41:06, loss | train: -4.4664 - valid: -3.8062 - steps: 388125
+03-Jan-23 05:41:08, valid | thickness_mae: 0.0626 - intensity_mae: 1.5712 - digit_acc: 0.9930
+03-Jan-23 05:41:08, Epoch 208:
+03-Jan-23 05:42:24, loss | train: -4.4763 - valid: -3.7820 - steps: 390000
+03-Jan-23 05:42:26, valid | thickness_mae: 0.0629 - intensity_mae: 1.5769 - digit_acc: 0.9929
+03-Jan-23 05:42:26, Epoch 209:
+03-Jan-23 05:43:43, loss | train: -4.4971 - valid: -3.7511 - steps: 391875
+03-Jan-23 05:43:44, valid | thickness_mae: 0.0629 - intensity_mae: 1.5655 - digit_acc: 0.9929
+03-Jan-23 05:43:44, Epoch 210:
+03-Jan-23 05:45:01, loss | train: -4.5146 - valid: -3.7486 - steps: 393750
+03-Jan-23 05:45:02, valid | thickness_mae: 0.0628 - intensity_mae: 1.5577 - digit_acc: 0.9930
+03-Jan-23 05:45:02, Epoch 211:
+03-Jan-23 05:46:19, loss | train: -4.5040 - valid: -3.7800 - steps: 395625
+03-Jan-23 05:46:21, valid | thickness_mae: 0.0627 - intensity_mae: 1.5546 - digit_acc: 0.9932
+03-Jan-23 05:46:21, Epoch 212:
+03-Jan-23 05:47:37, loss | train: -4.5205 - valid: -3.7724 - steps: 397500
+03-Jan-23 05:47:39, valid | thickness_mae: 0.0626 - intensity_mae: 1.5715 - digit_acc: 0.9932
+03-Jan-23 05:47:39, Epoch 213:
+03-Jan-23 05:48:56, loss | train: -4.5126 - valid: -3.7319 - steps: 399375
+03-Jan-23 05:48:58, valid | thickness_mae: 0.0627 - intensity_mae: 1.5855 - digit_acc: 0.9929
+03-Jan-23 05:48:58, Epoch 214:
+03-Jan-23 05:50:14, loss | train: -4.4757 - valid: -3.7791 - steps: 401250
+03-Jan-23 05:50:16, valid | thickness_mae: 0.0626 - intensity_mae: 1.5791 - digit_acc: 0.9925
+03-Jan-23 05:50:16, Epoch 215:
+03-Jan-23 05:51:32, loss | train: -4.5233 - valid: -3.7235 - steps: 403125
+03-Jan-23 05:51:34, valid | thickness_mae: 0.0625 - intensity_mae: 1.5760 - digit_acc: 0.9921
+03-Jan-23 05:51:34, Epoch 216:
+03-Jan-23 05:52:51, loss | train: -4.4945 - valid: -3.7766 - steps: 405000
+03-Jan-23 05:52:52, valid | thickness_mae: 0.0627 - intensity_mae: 1.5373 - digit_acc: 0.9925
+03-Jan-23 05:52:52, Epoch 217:
+03-Jan-23 05:54:09, loss | train: -4.5127 - valid: -3.8054 - steps: 406875
+03-Jan-23 05:54:11, valid | thickness_mae: 0.0627 - intensity_mae: 1.5644 - digit_acc: 0.9929
+03-Jan-23 05:54:11, Epoch 218:
+03-Jan-23 05:55:27, loss | train: -4.5156 - valid: -3.8236 - steps: 408750
+03-Jan-23 05:55:29, valid | thickness_mae: 0.0626 - intensity_mae: 1.5548 - digit_acc: 0.9931
+03-Jan-23 05:55:29, Epoch 219:
+03-Jan-23 05:56:45, loss | train: -4.4956 - valid: -3.8092 - steps: 410625
+03-Jan-23 05:56:47, valid | thickness_mae: 0.0625 - intensity_mae: 1.5567 - digit_acc: 0.9927
+03-Jan-23 05:56:47, Epoch 220:
+03-Jan-23 05:58:03, loss | train: -4.5130 - valid: -3.7778 - steps: 412500
+03-Jan-23 05:58:05, valid | thickness_mae: 0.0626 - intensity_mae: 1.5822 - digit_acc: 0.9928
+03-Jan-23 05:58:05, Epoch 221:
+03-Jan-23 05:59:21, loss | train: -4.5021 - valid: -3.8117 - steps: 414375
+03-Jan-23 05:59:23, valid | thickness_mae: 0.0624 - intensity_mae: 1.5827 - digit_acc: 0.9927
+03-Jan-23 05:59:23, Epoch 222:
+03-Jan-23 06:00:39, loss | train: -4.5172 - valid: -3.7809 - steps: 416250
+03-Jan-23 06:00:41, valid | thickness_mae: 0.0624 - intensity_mae: 1.5985 - digit_acc: 0.9923
+03-Jan-23 06:00:41, Epoch 223:
+03-Jan-23 06:01:58, loss | train: -4.5239 - valid: -3.7633 - steps: 418125
+03-Jan-23 06:01:59, valid | thickness_mae: 0.0625 - intensity_mae: 1.5932 - digit_acc: 0.9929
+03-Jan-23 06:01:59, Epoch 224:
+03-Jan-23 06:03:16, loss | train: -4.5457 - valid: -3.7947 - steps: 420000
+03-Jan-23 06:03:18, valid | thickness_mae: 0.0624 - intensity_mae: 1.5765 - digit_acc: 0.9930
+03-Jan-23 06:03:18, Epoch 225:
+03-Jan-23 06:04:34, loss | train: -4.5394 - valid: -3.8420 - steps: 421875
+03-Jan-23 06:04:36, valid | thickness_mae: 0.0625 - intensity_mae: 1.5471 - digit_acc: 0.9928
+03-Jan-23 06:04:36, Epoch 226:
+03-Jan-23 06:05:52, loss | train: -4.5381 - valid: -3.8254 - steps: 423750
+03-Jan-23 06:05:54, valid | thickness_mae: 0.0624 - intensity_mae: 1.5361 - digit_acc: 0.9929
+03-Jan-23 06:05:54, Epoch 227:
+03-Jan-23 06:07:10, loss | train: -4.5380 - valid: -3.7896 - steps: 425625
+03-Jan-23 06:07:12, valid | thickness_mae: 0.0623 - intensity_mae: 1.5506 - digit_acc: 0.9924
+03-Jan-23 06:07:12, Epoch 228:
+03-Jan-23 06:08:28, loss | train: -4.5116 - valid: -3.7932 - steps: 427500
+03-Jan-23 06:08:30, valid | thickness_mae: 0.0623 - intensity_mae: 1.5636 - digit_acc: 0.9924
+03-Jan-23 06:08:30, Epoch 229:
+03-Jan-23 06:09:46, loss | train: -4.4968 - valid: -3.8394 - steps: 429375
+03-Jan-23 06:09:48, valid | thickness_mae: 0.0624 - intensity_mae: 1.5604 - digit_acc: 0.9929
+03-Jan-23 06:09:48, Epoch 230:
+03-Jan-23 06:11:05, loss | train: -4.5361 - valid: -3.8369 - steps: 431250
+03-Jan-23 06:11:06, valid | thickness_mae: 0.0624 - intensity_mae: 1.5492 - digit_acc: 0.9932
+03-Jan-23 06:11:06, Epoch 231:
+03-Jan-23 06:12:23, loss | train: -4.5367 - valid: -3.7998 - steps: 433125
+03-Jan-23 06:12:24, valid | thickness_mae: 0.0623 - intensity_mae: 1.5466 - digit_acc: 0.9933
+03-Jan-23 06:12:24, Epoch 232:
+03-Jan-23 06:13:41, loss | train: -4.5368 - valid: -3.7500 - steps: 435000
+03-Jan-23 06:13:43, valid | thickness_mae: 0.0623 - intensity_mae: 1.5652 - digit_acc: 0.9924
+03-Jan-23 06:13:43, Epoch 233:
+03-Jan-23 06:14:59, loss | train: -4.5449 - valid: -3.7586 - steps: 436875
+03-Jan-23 06:15:01, valid | thickness_mae: 0.0623 - intensity_mae: 1.5495 - digit_acc: 0.9921
+03-Jan-23 06:15:01, Epoch 234:
+03-Jan-23 06:16:17, loss | train: -4.5514 - valid: -3.7835 - steps: 438750
+03-Jan-23 06:16:19, valid | thickness_mae: 0.0623 - intensity_mae: 1.5475 - digit_acc: 0.9924
+03-Jan-23 06:16:19, Epoch 235:
+03-Jan-23 06:17:35, loss | train: -4.5332 - valid: -3.7455 - steps: 440625
+03-Jan-23 06:17:37, valid | thickness_mae: 0.0624 - intensity_mae: 1.5631 - digit_acc: 0.9923
+03-Jan-23 06:17:37, Epoch 236:
+03-Jan-23 06:18:54, loss | train: -4.5442 - valid: -3.7143 - steps: 442500
+03-Jan-23 06:18:55, valid | thickness_mae: 0.0621 - intensity_mae: 1.6017 - digit_acc: 0.9921
+03-Jan-23 06:18:55, Epoch 237:
+03-Jan-23 06:20:12, loss | train: -4.5813 - valid: -3.7879 - steps: 444375
+03-Jan-23 06:20:13, valid | thickness_mae: 0.0622 - intensity_mae: 1.5553 - digit_acc: 0.9926
+03-Jan-23 06:20:13, Epoch 238:
+03-Jan-23 06:21:30, loss | train: -4.4968 - valid: -3.7626 - steps: 446250
+03-Jan-23 06:21:32, valid | thickness_mae: 0.0623 - intensity_mae: 1.5918 - digit_acc: 0.9926
+03-Jan-23 06:21:32, Epoch 239:
+03-Jan-23 06:22:48, loss | train: -4.5533 - valid: -3.7810 - steps: 448125
+03-Jan-23 06:22:50, valid | thickness_mae: 0.0621 - intensity_mae: 1.5948 - digit_acc: 0.9927
+03-Jan-23 06:22:50, Epoch 240:
+03-Jan-23 06:24:06, loss | train: -4.5559 - valid: -3.7917 - steps: 450000
+03-Jan-23 06:24:08, valid | thickness_mae: 0.0622 - intensity_mae: 1.5524 - digit_acc: 0.9927
+03-Jan-23 06:24:08, Epoch 241:
+03-Jan-23 06:25:24, loss | train: -4.5595 - valid: -3.8179 - steps: 451875
+03-Jan-23 06:25:26, valid | thickness_mae: 0.0623 - intensity_mae: 1.5334 - digit_acc: 0.9929
+03-Jan-23 06:25:26, Epoch 242:
+03-Jan-23 06:26:43, loss | train: -4.5790 - valid: -3.7861 - steps: 453750
+03-Jan-23 06:26:44, valid | thickness_mae: 0.0624 - intensity_mae: 1.5455 - digit_acc: 0.9929
+03-Jan-23 06:26:44, Epoch 243:
+03-Jan-23 06:28:02, loss | train: -4.5769 - valid: -3.7657 - steps: 455625
+03-Jan-23 06:28:04, valid | thickness_mae: 0.0621 - intensity_mae: 1.5514 - digit_acc: 0.9922
+03-Jan-23 06:28:04, Epoch 244:
+03-Jan-23 06:29:21, loss | train: -4.5829 - valid: -3.8019 - steps: 457500
+03-Jan-23 06:29:23, valid | thickness_mae: 0.0622 - intensity_mae: 1.5565 - digit_acc: 0.9930
+03-Jan-23 06:29:23, Epoch 245:
+03-Jan-23 06:30:39, loss | train: -4.5856 - valid: -3.8388 - steps: 459375
+03-Jan-23 06:30:41, valid | thickness_mae: 0.0620 - intensity_mae: 1.5449 - digit_acc: 0.9932
+03-Jan-23 06:30:41, Epoch 246:
+03-Jan-23 06:31:57, loss | train: -4.5480 - valid: -3.7714 - steps: 461250
+03-Jan-23 06:31:59, valid | thickness_mae: 0.0621 - intensity_mae: 1.5581 - digit_acc: 0.9930
+03-Jan-23 06:31:59, Epoch 247:
+03-Jan-23 06:33:15, loss | train: -4.5599 - valid: -3.7570 - steps: 463125
+03-Jan-23 06:33:17, valid | thickness_mae: 0.0622 - intensity_mae: 1.5586 - digit_acc: 0.9927
+03-Jan-23 06:33:17, Epoch 248:
+03-Jan-23 06:34:34, loss | train: -4.5778 - valid: -3.7826 - steps: 465000
+03-Jan-23 06:34:35, valid | thickness_mae: 0.0622 - intensity_mae: 1.5471 - digit_acc: 0.9930
+03-Jan-23 06:34:35, Epoch 249:
+03-Jan-23 06:35:52, loss | train: -4.5846 - valid: -3.8119 - steps: 466875
+03-Jan-23 06:35:53, valid | thickness_mae: 0.0620 - intensity_mae: 1.5484 - digit_acc: 0.9934
+03-Jan-23 06:35:53, Epoch 250:
+03-Jan-23 06:37:10, loss | train: -4.5749 - valid: -3.8287 - steps: 468750
+03-Jan-23 06:37:12, valid | thickness_mae: 0.0620 - intensity_mae: 1.5131 - digit_acc: 0.9934
+03-Jan-23 06:37:12, Epoch 251:
+03-Jan-23 06:38:28, loss | train: -4.5987 - valid: -3.8045 - steps: 470625
+03-Jan-23 06:38:30, valid | thickness_mae: 0.0619 - intensity_mae: 1.5671 - digit_acc: 0.9932
+03-Jan-23 06:38:30, Epoch 252:
+03-Jan-23 06:39:46, loss | train: -4.5877 - valid: -3.7660 - steps: 472500
+03-Jan-23 06:39:48, valid | thickness_mae: 0.0620 - intensity_mae: 1.5499 - digit_acc: 0.9928
+03-Jan-23 06:39:48, Epoch 253:
+03-Jan-23 06:41:04, loss | train: -4.5732 - valid: -3.8328 - steps: 474375
+03-Jan-23 06:41:06, valid | thickness_mae: 0.0618 - intensity_mae: 1.5339 - digit_acc: 0.9929
+03-Jan-23 06:41:06, Epoch 254:
+03-Jan-23 06:42:23, loss | train: -4.5715 - valid: -3.8434 - steps: 476250
+03-Jan-23 06:42:24, valid | thickness_mae: 0.0619 - intensity_mae: 1.5297 - digit_acc: 0.9935
+03-Jan-23 06:42:24, Epoch 255:
+03-Jan-23 06:43:41, loss | train: -4.5957 - valid: -3.8439 - steps: 478125
+03-Jan-23 06:43:43, valid | thickness_mae: 0.0619 - intensity_mae: 1.5362 - digit_acc: 0.9935
+03-Jan-23 06:43:43, Epoch 256:
+03-Jan-23 06:45:00, loss | train: -4.5732 - valid: -3.8289 - steps: 480000
+03-Jan-23 06:45:01, valid | thickness_mae: 0.0619 - intensity_mae: 1.5642 - digit_acc: 0.9934
+03-Jan-23 06:45:01, Epoch 257:
+03-Jan-23 06:46:18, loss | train: -4.6110 - valid: -3.8335 - steps: 481875
+03-Jan-23 06:46:20, valid | thickness_mae: 0.0618 - intensity_mae: 1.5547 - digit_acc: 0.9931
+03-Jan-23 06:46:20, Epoch 258:
+03-Jan-23 06:47:36, loss | train: -4.5849 - valid: -3.8594 - steps: 483750
+03-Jan-23 06:47:38, valid | thickness_mae: 0.0618 - intensity_mae: 1.5429 - digit_acc: 0.9931
+03-Jan-23 06:47:38, Epoch 259:
+03-Jan-23 06:48:55, loss | train: -4.6140 - valid: -3.8262 - steps: 485625
+03-Jan-23 06:48:56, valid | thickness_mae: 0.0619 - intensity_mae: 1.5343 - digit_acc: 0.9929
+03-Jan-23 06:48:56, Epoch 260:
+03-Jan-23 06:50:13, loss | train: -4.5926 - valid: -3.7852 - steps: 487500
+03-Jan-23 06:50:14, valid | thickness_mae: 0.0618 - intensity_mae: 1.5415 - digit_acc: 0.9931
+03-Jan-23 06:50:14, Epoch 261:
+03-Jan-23 06:51:31, loss | train: -4.5976 - valid: -3.8220 - steps: 489375
+03-Jan-23 06:51:33, valid | thickness_mae: 0.0617 - intensity_mae: 1.5439 - digit_acc: 0.9931
+03-Jan-23 06:51:33, Epoch 262:
+03-Jan-23 06:52:49, loss | train: -4.6099 - valid: -3.7651 - steps: 491250
+03-Jan-23 06:52:51, valid | thickness_mae: 0.0618 - intensity_mae: 1.5689 - digit_acc: 0.9929
+03-Jan-23 06:52:51, Epoch 263:
+03-Jan-23 06:54:07, loss | train: -4.5975 - valid: -3.7551 - steps: 493125
+03-Jan-23 06:54:09, valid | thickness_mae: 0.0618 - intensity_mae: 1.5481 - digit_acc: 0.9933
+03-Jan-23 06:54:09, Epoch 264:
+03-Jan-23 06:55:25, loss | train: -4.6405 - valid: -3.7776 - steps: 495000
+03-Jan-23 06:55:27, valid | thickness_mae: 0.0616 - intensity_mae: 1.5408 - digit_acc: 0.9924
+03-Jan-23 06:55:27, Epoch 265:
+03-Jan-23 06:56:44, loss | train: -4.6031 - valid: -3.7830 - steps: 496875
+03-Jan-23 06:56:45, valid | thickness_mae: 0.0615 - intensity_mae: 1.5605 - digit_acc: 0.9933
+03-Jan-23 06:56:45, Epoch 266:
+03-Jan-23 06:58:02, loss | train: -4.6053 - valid: -3.7655 - steps: 498750
+03-Jan-23 06:58:03, valid | thickness_mae: 0.0616 - intensity_mae: 1.5477 - digit_acc: 0.9934
+03-Jan-23 06:58:03, Epoch 267:
+03-Jan-23 06:59:20, loss | train: -4.6148 - valid: -3.7585 - steps: 500625
+03-Jan-23 06:59:22, valid | thickness_mae: 0.0616 - intensity_mae: 1.5425 - digit_acc: 0.9930
+03-Jan-23 06:59:22, Epoch 268:
+03-Jan-23 07:00:38, loss | train: -4.6093 - valid: -3.7329 - steps: 502500
+03-Jan-23 07:00:40, valid | thickness_mae: 0.0615 - intensity_mae: 1.5386 - digit_acc: 0.9931
+03-Jan-23 07:00:40, Epoch 269:
+03-Jan-23 07:01:56, loss | train: -4.6020 - valid: -3.7679 - steps: 504375
+03-Jan-23 07:01:58, valid | thickness_mae: 0.0615 - intensity_mae: 1.5552 - digit_acc: 0.9933
+03-Jan-23 07:01:58, Epoch 270:
+03-Jan-23 07:03:14, loss | train: -4.6135 - valid: -3.7395 - steps: 506250
+03-Jan-23 07:03:16, valid | thickness_mae: 0.0615 - intensity_mae: 1.5424 - digit_acc: 0.9932
+03-Jan-23 07:03:16, Epoch 271:
+03-Jan-23 07:04:32, loss | train: -4.6179 - valid: -3.6984 - steps: 508125
+03-Jan-23 07:04:34, valid | thickness_mae: 0.0614 - intensity_mae: 1.5639 - digit_acc: 0.9930
+03-Jan-23 07:04:34, Epoch 272:
+03-Jan-23 07:05:50, loss | train: -4.6416 - valid: -3.7331 - steps: 510000
+03-Jan-23 07:05:52, valid | thickness_mae: 0.0613 - intensity_mae: 1.5456 - digit_acc: 0.9934
+03-Jan-23 07:05:52, Epoch 273:
+03-Jan-23 07:07:08, loss | train: -4.6188 - valid: -3.7118 - steps: 511875
+03-Jan-23 07:07:10, valid | thickness_mae: 0.0616 - intensity_mae: 1.5478 - digit_acc: 0.9932
+03-Jan-23 07:07:10, Epoch 274:
+03-Jan-23 07:08:27, loss | train: -4.6079 - valid: -3.7257 - steps: 513750
+03-Jan-23 07:08:28, valid | thickness_mae: 0.0616 - intensity_mae: 1.5463 - digit_acc: 0.9925
+03-Jan-23 07:08:28, Epoch 275:
+03-Jan-23 07:09:45, loss | train: -4.6159 - valid: -3.7173 - steps: 515625
+03-Jan-23 07:09:46, valid | thickness_mae: 0.0615 - intensity_mae: 1.5117 - digit_acc: 0.9926
+03-Jan-23 07:09:46, Epoch 276:
+03-Jan-23 07:11:03, loss | train: -4.6547 - valid: -3.7026 - steps: 517500
+03-Jan-23 07:11:05, valid | thickness_mae: 0.0615 - intensity_mae: 1.5448 - digit_acc: 0.9926
+03-Jan-23 07:11:05, Epoch 277:
+03-Jan-23 07:12:21, loss | train: -4.6247 - valid: -3.6710 - steps: 519375
+03-Jan-23 07:12:23, valid | thickness_mae: 0.0615 - intensity_mae: 1.5300 - digit_acc: 0.9923
+03-Jan-23 07:12:23, Epoch 278:
+03-Jan-23 07:13:40, loss | train: -4.6244 - valid: -3.6748 - steps: 521250
+03-Jan-23 07:13:41, valid | thickness_mae: 0.0615 - intensity_mae: 1.5389 - digit_acc: 0.9924
+03-Jan-23 07:13:41, Epoch 279:
+03-Jan-23 07:14:58, loss | train: -4.6100 - valid: -3.6949 - steps: 523125
+03-Jan-23 07:14:59, valid | thickness_mae: 0.0618 - intensity_mae: 1.5350 - digit_acc: 0.9925
+03-Jan-23 07:14:59, Epoch 280:
+03-Jan-23 07:16:16, loss | train: -4.6380 - valid: -3.7135 - steps: 525000
+03-Jan-23 07:16:17, valid | thickness_mae: 0.0616 - intensity_mae: 1.5087 - digit_acc: 0.9922
+03-Jan-23 07:16:17, Epoch 281:
+03-Jan-23 07:17:34, loss | train: -4.6362 - valid: -3.7144 - steps: 526875
+03-Jan-23 07:17:36, valid | thickness_mae: 0.0615 - intensity_mae: 1.5464 - digit_acc: 0.9922
+03-Jan-23 07:17:36, Epoch 282:
+03-Jan-23 07:18:52, loss | train: -4.6219 - valid: -3.7253 - steps: 528750
+03-Jan-23 07:18:54, valid | thickness_mae: 0.0617 - intensity_mae: 1.5444 - digit_acc: 0.9930
+03-Jan-23 07:18:54, Epoch 283:
+03-Jan-23 07:20:10, loss | train: -4.6536 - valid: -3.7805 - steps: 530625
+03-Jan-23 07:20:12, valid | thickness_mae: 0.0615 - intensity_mae: 1.5363 - digit_acc: 0.9926
+03-Jan-23 07:20:12, Epoch 284:
+03-Jan-23 07:21:28, loss | train: -4.6358 - valid: -3.7531 - steps: 532500
+03-Jan-23 07:21:30, valid | thickness_mae: 0.0613 - intensity_mae: 1.5310 - digit_acc: 0.9927
+03-Jan-23 07:21:30, Epoch 285:
+03-Jan-23 07:22:47, loss | train: -4.6558 - valid: -3.7585 - steps: 534375
+03-Jan-23 07:22:48, valid | thickness_mae: 0.0615 - intensity_mae: 1.5282 - digit_acc: 0.9924
+03-Jan-23 07:22:48, Epoch 286:
+03-Jan-23 07:24:05, loss | train: -4.6462 - valid: -3.7808 - steps: 536250
+03-Jan-23 07:24:06, valid | thickness_mae: 0.0614 - intensity_mae: 1.5218 - digit_acc: 0.9927
+03-Jan-23 07:24:06, Epoch 287:
+03-Jan-23 07:25:23, loss | train: -4.6305 - valid: -3.7171 - steps: 538125
+03-Jan-23 07:25:25, valid | thickness_mae: 0.0614 - intensity_mae: 1.5359 - digit_acc: 0.9927
+03-Jan-23 07:25:25, Epoch 288:
+03-Jan-23 07:26:41, loss | train: -4.6585 - valid: -3.8005 - steps: 540000
+03-Jan-23 07:26:43, valid | thickness_mae: 0.0615 - intensity_mae: 1.5281 - digit_acc: 0.9935
+03-Jan-23 07:26:43, Epoch 289:
+03-Jan-23 07:27:59, loss | train: -4.6096 - valid: -3.7996 - steps: 541875
+03-Jan-23 07:28:01, valid | thickness_mae: 0.0615 - intensity_mae: 1.5169 - digit_acc: 0.9932
+03-Jan-23 07:28:01, Epoch 290:
+03-Jan-23 07:29:17, loss | train: -4.6617 - valid: -3.7817 - steps: 543750
+03-Jan-23 07:29:19, valid | thickness_mae: 0.0614 - intensity_mae: 1.5189 - digit_acc: 0.9928
+03-Jan-23 07:29:19, Epoch 291:
+03-Jan-23 07:30:36, loss | train: -4.6371 - valid: -3.7989 - steps: 545625
+03-Jan-23 07:30:37, valid | thickness_mae: 0.0612 - intensity_mae: 1.5246 - digit_acc: 0.9927
+03-Jan-23 07:30:37, Epoch 292:
+03-Jan-23 07:31:54, loss | train: -4.6066 - valid: -3.8189 - steps: 547500
+03-Jan-23 07:31:55, valid | thickness_mae: 0.0612 - intensity_mae: 1.5074 - digit_acc: 0.9926
+03-Jan-23 07:31:55, Epoch 293:
+03-Jan-23 07:33:12, loss | train: -4.6672 - valid: -3.7786 - steps: 549375
+03-Jan-23 07:33:14, valid | thickness_mae: 0.0615 - intensity_mae: 1.5133 - digit_acc: 0.9927
+03-Jan-23 07:33:14, Epoch 294:
+03-Jan-23 07:34:30, loss | train: -4.6707 - valid: -3.8066 - steps: 551250
+03-Jan-23 07:34:32, valid | thickness_mae: 0.0615 - intensity_mae: 1.5112 - digit_acc: 0.9929
+03-Jan-23 07:34:32, Epoch 295:
+03-Jan-23 07:35:48, loss | train: -4.6480 - valid: -3.8152 - steps: 553125
+03-Jan-23 07:35:50, valid | thickness_mae: 0.0614 - intensity_mae: 1.5163 - digit_acc: 0.9936
+03-Jan-23 07:35:50, Epoch 296:
+03-Jan-23 07:37:06, loss | train: -4.6516 - valid: -3.8140 - steps: 555000
+03-Jan-23 07:37:08, valid | thickness_mae: 0.0614 - intensity_mae: 1.5064 - digit_acc: 0.9939
+03-Jan-23 07:37:08, Epoch 297:
+03-Jan-23 07:38:25, loss | train: -4.6658 - valid: -3.7724 - steps: 556875
+03-Jan-23 07:38:26, valid | thickness_mae: 0.0612 - intensity_mae: 1.5242 - digit_acc: 0.9930
+03-Jan-23 07:38:26, Epoch 298:
+03-Jan-23 07:39:43, loss | train: -4.6796 - valid: -3.7635 - steps: 558750
+03-Jan-23 07:39:45, valid | thickness_mae: 0.0613 - intensity_mae: 1.5089 - digit_acc: 0.9932
+03-Jan-23 07:39:45, Epoch 299:
+03-Jan-23 07:41:01, loss | train: -4.6491 - valid: -3.7146 - steps: 560625
+03-Jan-23 07:41:03, valid | thickness_mae: 0.0613 - intensity_mae: 1.5375 - digit_acc: 0.9934
+03-Jan-23 07:41:03, Epoch 300:
+03-Jan-23 07:42:19, loss | train: -4.6702 - valid: -3.7526 - steps: 562500
+03-Jan-23 07:42:21, valid | thickness_mae: 0.0613 - intensity_mae: 1.5194 - digit_acc: 0.9930
+03-Jan-23 07:42:21, Epoch 301:
+03-Jan-23 07:43:38, loss | train: -4.6694 - valid: -3.7801 - steps: 564375
+03-Jan-23 07:43:39, valid | thickness_mae: 0.0612 - intensity_mae: 1.5391 - digit_acc: 0.9933
+03-Jan-23 07:43:39, Epoch 302:
+03-Jan-23 07:44:56, loss | train: -4.6598 - valid: -3.7779 - steps: 566250
+03-Jan-23 07:44:57, valid | thickness_mae: 0.0613 - intensity_mae: 1.5350 - digit_acc: 0.9935
+03-Jan-23 07:44:57, Epoch 303:
+03-Jan-23 07:46:14, loss | train: -4.6469 - valid: -3.7103 - steps: 568125
+03-Jan-23 07:46:16, valid | thickness_mae: 0.0613 - intensity_mae: 1.5360 - digit_acc: 0.9926
+03-Jan-23 07:46:16, Epoch 304:
+03-Jan-23 07:47:32, loss | train: -4.6654 - valid: -3.7666 - steps: 570000
+03-Jan-23 07:47:34, valid | thickness_mae: 0.0612 - intensity_mae: 1.5170 - digit_acc: 0.9924
+03-Jan-23 07:47:34, Epoch 305:
+03-Jan-23 07:48:51, loss | train: -4.6941 - valid: -3.7345 - steps: 571875
+03-Jan-23 07:48:52, valid | thickness_mae: 0.0613 - intensity_mae: 1.5184 - digit_acc: 0.9929
+03-Jan-23 07:48:52, Epoch 306:
+03-Jan-23 07:50:09, loss | train: -4.6490 - valid: -3.7250 - steps: 573750
+03-Jan-23 07:50:10, valid | thickness_mae: 0.0613 - intensity_mae: 1.5042 - digit_acc: 0.9924
+03-Jan-23 07:50:10, Epoch 307:
+03-Jan-23 07:51:27, loss | train: -4.6759 - valid: -3.7396 - steps: 575625
+03-Jan-23 07:51:29, valid | thickness_mae: 0.0613 - intensity_mae: 1.5130 - digit_acc: 0.9931
+03-Jan-23 07:51:29, Epoch 308:
+03-Jan-23 07:52:45, loss | train: -4.6847 - valid: -3.7418 - steps: 577500
+03-Jan-23 07:52:47, valid | thickness_mae: 0.0610 - intensity_mae: 1.5194 - digit_acc: 0.9929
+03-Jan-23 07:52:47, Epoch 309:
+03-Jan-23 07:54:03, loss | train: -4.6477 - valid: -3.7686 - steps: 579375
+03-Jan-23 07:54:05, valid | thickness_mae: 0.0610 - intensity_mae: 1.5019 - digit_acc: 0.9920
+03-Jan-23 07:54:05, Epoch 310:
+03-Jan-23 07:55:21, loss | train: -4.6687 - valid: -3.7731 - steps: 581250
+03-Jan-23 07:55:23, valid | thickness_mae: 0.0610 - intensity_mae: 1.4997 - digit_acc: 0.9923
+03-Jan-23 07:55:23, Epoch 311:
+03-Jan-23 07:56:40, loss | train: -4.6775 - valid: -3.7430 - steps: 583125
+03-Jan-23 07:56:41, valid | thickness_mae: 0.0611 - intensity_mae: 1.5033 - digit_acc: 0.9926
+03-Jan-23 07:56:41, Epoch 312:
+03-Jan-23 07:57:58, loss | train: -4.6846 - valid: -3.7239 - steps: 585000
+03-Jan-23 07:58:00, valid | thickness_mae: 0.0613 - intensity_mae: 1.5104 - digit_acc: 0.9922
+03-Jan-23 07:58:00, Epoch 313:
+03-Jan-23 07:59:16, loss | train: -4.6659 - valid: -3.7717 - steps: 586875
+03-Jan-23 07:59:18, valid | thickness_mae: 0.0612 - intensity_mae: 1.4839 - digit_acc: 0.9921
+03-Jan-23 07:59:18, Epoch 314:
+03-Jan-23 08:00:34, loss | train: -4.6904 - valid: -3.7060 - steps: 588750
+03-Jan-23 08:00:36, valid | thickness_mae: 0.0611 - intensity_mae: 1.5063 - digit_acc: 0.9921
+03-Jan-23 08:00:36, Epoch 315:
+03-Jan-23 08:01:52, loss | train: -4.6695 - valid: -3.7292 - steps: 590625
+03-Jan-23 08:01:54, valid | thickness_mae: 0.0611 - intensity_mae: 1.4991 - digit_acc: 0.9923
+03-Jan-23 08:01:54, Epoch 316:
+03-Jan-23 08:03:10, loss | train: -4.6853 - valid: -3.7796 - steps: 592500
+03-Jan-23 08:03:12, valid | thickness_mae: 0.0610 - intensity_mae: 1.5124 - digit_acc: 0.9931
+03-Jan-23 08:03:12, Epoch 317:
+03-Jan-23 08:04:28, loss | train: -4.7080 - valid: -3.8360 - steps: 594375
+03-Jan-23 08:04:30, valid | thickness_mae: 0.0609 - intensity_mae: 1.5132 - digit_acc: 0.9929
+03-Jan-23 08:04:30, Epoch 318:
+03-Jan-23 08:05:47, loss | train: -4.6784 - valid: -3.7972 - steps: 596250
+03-Jan-23 08:05:48, valid | thickness_mae: 0.0609 - intensity_mae: 1.4977 - digit_acc: 0.9930
+03-Jan-23 08:05:48, Epoch 319:
+03-Jan-23 08:07:05, loss | train: -4.6851 - valid: -3.7661 - steps: 598125
+03-Jan-23 08:07:07, valid | thickness_mae: 0.0612 - intensity_mae: 1.4980 - digit_acc: 0.9930
+03-Jan-23 08:07:07, Epoch 320:
+03-Jan-23 08:08:23, loss | train: -4.6601 - valid: -3.8103 - steps: 600000
+03-Jan-23 08:08:25, valid | thickness_mae: 0.0611 - intensity_mae: 1.5185 - digit_acc: 0.9926
+03-Jan-23 08:08:25, Epoch 321:
+03-Jan-23 08:09:41, loss | train: -4.6888 - valid: -3.7630 - steps: 601875
+03-Jan-23 08:09:43, valid | thickness_mae: 0.0611 - intensity_mae: 1.5244 - digit_acc: 0.9926
+03-Jan-23 08:09:43, Epoch 322:
+03-Jan-23 08:11:00, loss | train: -4.7033 - valid: -3.8155 - steps: 603750
+03-Jan-23 08:11:01, valid | thickness_mae: 0.0610 - intensity_mae: 1.5269 - digit_acc: 0.9936
+03-Jan-23 08:11:01, Epoch 323:
+03-Jan-23 08:12:18, loss | train: -4.6753 - valid: -3.8365 - steps: 605625
+03-Jan-23 08:12:20, valid | thickness_mae: 0.0610 - intensity_mae: 1.5059 - digit_acc: 0.9934
+03-Jan-23 08:12:20, Epoch 324:
+03-Jan-23 08:13:36, loss | train: -4.7073 - valid: -3.8128 - steps: 607500
+03-Jan-23 08:13:38, valid | thickness_mae: 0.0611 - intensity_mae: 1.4887 - digit_acc: 0.9934
+03-Jan-23 08:13:38, Epoch 325:
+03-Jan-23 08:14:54, loss | train: -4.6971 - valid: -3.8176 - steps: 609375
+03-Jan-23 08:14:56, valid | thickness_mae: 0.0610 - intensity_mae: 1.4897 - digit_acc: 0.9935
+03-Jan-23 08:14:56, Epoch 326:
+03-Jan-23 08:16:12, loss | train: -4.6913 - valid: -3.7299 - steps: 611250
+03-Jan-23 08:16:14, valid | thickness_mae: 0.0610 - intensity_mae: 1.5180 - digit_acc: 0.9927
+03-Jan-23 08:16:14, Epoch 327:
+03-Jan-23 08:17:30, loss | train: -4.7046 - valid: -3.7702 - steps: 613125
+03-Jan-23 08:17:32, valid | thickness_mae: 0.0610 - intensity_mae: 1.5241 - digit_acc: 0.9930
+03-Jan-23 08:17:32, Epoch 328:
+03-Jan-23 08:18:49, loss | train: -4.6684 - valid: -3.7642 - steps: 615000
+03-Jan-23 08:18:50, valid | thickness_mae: 0.0612 - intensity_mae: 1.5281 - digit_acc: 0.9928
+03-Jan-23 08:18:50, Epoch 329:
+03-Jan-23 08:20:07, loss | train: -4.6981 - valid: -3.7891 - steps: 616875
+03-Jan-23 08:20:09, valid | thickness_mae: 0.0611 - intensity_mae: 1.5215 - digit_acc: 0.9932
+03-Jan-23 08:20:09, Epoch 330:
+03-Jan-23 08:21:25, loss | train: -4.7027 - valid: -3.7855 - steps: 618750
+03-Jan-23 08:21:27, valid | thickness_mae: 0.0610 - intensity_mae: 1.5219 - digit_acc: 0.9934
+03-Jan-23 08:21:27, Epoch 331:
+03-Jan-23 08:22:43, loss | train: -4.7403 - valid: -3.7840 - steps: 620625
+03-Jan-23 08:22:45, valid | thickness_mae: 0.0609 - intensity_mae: 1.4939 - digit_acc: 0.9935
+03-Jan-23 08:22:45, Epoch 332:
+03-Jan-23 08:24:01, loss | train: -4.6986 - valid: -3.7543 - steps: 622500
+03-Jan-23 08:24:03, valid | thickness_mae: 0.0610 - intensity_mae: 1.5060 - digit_acc: 0.9937
+03-Jan-23 08:24:03, Epoch 333:
+03-Jan-23 08:25:19, loss | train: -4.7202 - valid: -3.8448 - steps: 624375
+03-Jan-23 08:25:21, valid | thickness_mae: 0.0610 - intensity_mae: 1.5207 - digit_acc: 0.9932
+03-Jan-23 08:25:21, Epoch 334:
+03-Jan-23 08:26:37, loss | train: -4.7029 - valid: -3.8351 - steps: 626250
+03-Jan-23 08:26:39, valid | thickness_mae: 0.0611 - intensity_mae: 1.5031 - digit_acc: 0.9937
+03-Jan-23 08:26:39, Epoch 335:
+03-Jan-23 08:27:56, loss | train: -4.6898 - valid: -3.7711 - steps: 628125
+03-Jan-23 08:27:57, valid | thickness_mae: 0.0610 - intensity_mae: 1.5235 - digit_acc: 0.9929
+03-Jan-23 08:27:57, Epoch 336:
+03-Jan-23 08:29:14, loss | train: -4.7033 - valid: -3.7445 - steps: 630000
+03-Jan-23 08:29:16, valid | thickness_mae: 0.0610 - intensity_mae: 1.5389 - digit_acc: 0.9929
+03-Jan-23 08:29:16, Epoch 337:
+03-Jan-23 08:30:32, loss | train: -4.7048 - valid: -3.8132 - steps: 631875
+03-Jan-23 08:30:34, valid | thickness_mae: 0.0609 - intensity_mae: 1.5171 - digit_acc: 0.9933
+03-Jan-23 08:30:34, Epoch 338:
+03-Jan-23 08:31:50, loss | train: -4.6967 - valid: -3.8371 - steps: 633750
+03-Jan-23 08:31:52, valid | thickness_mae: 0.0610 - intensity_mae: 1.5182 - digit_acc: 0.9938
+03-Jan-23 08:31:52, Epoch 339:
+03-Jan-23 08:33:08, loss | train: -4.6879 - valid: -3.8296 - steps: 635625
+03-Jan-23 08:33:10, valid | thickness_mae: 0.0611 - intensity_mae: 1.5450 - digit_acc: 0.9931
+03-Jan-23 08:33:10, Epoch 340:
+03-Jan-23 08:34:27, loss | train: -4.7221 - valid: -3.8519 - steps: 637500
+03-Jan-23 08:34:28, valid | thickness_mae: 0.0610 - intensity_mae: 1.5149 - digit_acc: 0.9935
+03-Jan-23 08:34:28, Epoch 341:
+03-Jan-23 08:35:45, loss | train: -4.6878 - valid: -3.8534 - steps: 639375
+03-Jan-23 08:35:47, valid | thickness_mae: 0.0609 - intensity_mae: 1.5231 - digit_acc: 0.9929
+03-Jan-23 08:35:47, Epoch 342:
+03-Jan-23 08:37:03, loss | train: -4.7152 - valid: -3.8299 - steps: 641250
+03-Jan-23 08:37:05, valid | thickness_mae: 0.0609 - intensity_mae: 1.5259 - digit_acc: 0.9935
+03-Jan-23 08:37:05, Epoch 343:
+03-Jan-23 08:38:21, loss | train: -4.7172 - valid: -3.8387 - steps: 643125
+03-Jan-23 08:38:23, valid | thickness_mae: 0.0608 - intensity_mae: 1.5271 - digit_acc: 0.9934
+03-Jan-23 08:38:23, Epoch 344:
+03-Jan-23 08:39:39, loss | train: -4.7239 - valid: -3.8586 - steps: 645000
+03-Jan-23 08:39:41, valid | thickness_mae: 0.0606 - intensity_mae: 1.5005 - digit_acc: 0.9935
+03-Jan-23 08:39:41, Epoch 345:
+03-Jan-23 08:40:58, loss | train: -4.6984 - valid: -3.8655 - steps: 646875
+03-Jan-23 08:40:59, valid | thickness_mae: 0.0608 - intensity_mae: 1.5086 - digit_acc: 0.9933
+03-Jan-23 08:40:59, Epoch 346:
+03-Jan-23 08:42:16, loss | train: -4.7220 - valid: -3.8289 - steps: 648750
+03-Jan-23 08:42:17, valid | thickness_mae: 0.0608 - intensity_mae: 1.5082 - digit_acc: 0.9932
+03-Jan-23 08:42:17, Epoch 347:
+03-Jan-23 08:43:34, loss | train: -4.7120 - valid: -3.8085 - steps: 650625
+03-Jan-23 08:43:35, valid | thickness_mae: 0.0608 - intensity_mae: 1.5315 - digit_acc: 0.9932
+03-Jan-23 08:43:35, Epoch 348:
+03-Jan-23 08:44:52, loss | train: -4.7227 - valid: -3.8239 - steps: 652500
+03-Jan-23 08:44:54, valid | thickness_mae: 0.0608 - intensity_mae: 1.5218 - digit_acc: 0.9934
+03-Jan-23 08:44:54, Epoch 349:
+03-Jan-23 08:46:10, loss | train: -4.7185 - valid: -3.8259 - steps: 654375
+03-Jan-23 08:46:12, valid | thickness_mae: 0.0609 - intensity_mae: 1.5200 - digit_acc: 0.9927
+03-Jan-23 08:46:12, Epoch 350:
+03-Jan-23 08:47:28, loss | train: -4.7339 - valid: -3.8318 - steps: 656250
+03-Jan-23 08:47:30, valid | thickness_mae: 0.0609 - intensity_mae: 1.5165 - digit_acc: 0.9930
+03-Jan-23 08:47:30, Epoch 351:
+03-Jan-23 08:48:47, loss | train: -4.7244 - valid: -3.8784 - steps: 658125
+03-Jan-23 08:48:49, valid | thickness_mae: 0.0610 - intensity_mae: 1.5234 - digit_acc: 0.9930
+03-Jan-23 08:48:49, Epoch 352:
+03-Jan-23 08:50:05, loss | train: -4.7126 - valid: -3.8336 - steps: 660000
+03-Jan-23 08:50:07, valid | thickness_mae: 0.0610 - intensity_mae: 1.5004 - digit_acc: 0.9924
+03-Jan-23 08:50:07, Epoch 353:
+03-Jan-23 08:51:23, loss | train: -4.7253 - valid: -3.8110 - steps: 661875
+03-Jan-23 08:51:25, valid | thickness_mae: 0.0610 - intensity_mae: 1.5135 - digit_acc: 0.9925
+03-Jan-23 08:51:25, Epoch 354:
+03-Jan-23 08:52:41, loss | train: -4.6979 - valid: -3.8083 - steps: 663750
+03-Jan-23 08:52:43, valid | thickness_mae: 0.0608 - intensity_mae: 1.5212 - digit_acc: 0.9929
+03-Jan-23 08:52:43, Epoch 355:
+03-Jan-23 08:54:00, loss | train: -4.7193 - valid: -3.7974 - steps: 665625
+03-Jan-23 08:54:02, valid | thickness_mae: 0.0607 - intensity_mae: 1.5071 - digit_acc: 0.9928
+03-Jan-23 08:54:02, Epoch 356:
+03-Jan-23 08:55:18, loss | train: -4.7422 - valid: -3.7531 - steps: 667500
+03-Jan-23 08:55:20, valid | thickness_mae: 0.0607 - intensity_mae: 1.5257 - digit_acc: 0.9931
+03-Jan-23 08:55:20, Epoch 357:
+03-Jan-23 08:56:36, loss | train: -4.7467 - valid: -3.8325 - steps: 669375
+03-Jan-23 08:56:38, valid | thickness_mae: 0.0609 - intensity_mae: 1.4863 - digit_acc: 0.9926
+03-Jan-23 08:56:38, Epoch 358:
+03-Jan-23 08:57:54, loss | train: -4.7437 - valid: -3.7621 - steps: 671250
+03-Jan-23 08:57:56, valid | thickness_mae: 0.0608 - intensity_mae: 1.5091 - digit_acc: 0.9929
+03-Jan-23 08:57:56, Epoch 359:
+03-Jan-23 08:59:12, loss | train: -4.6897 - valid: -3.7978 - steps: 673125
+03-Jan-23 08:59:14, valid | thickness_mae: 0.0609 - intensity_mae: 1.5084 - digit_acc: 0.9930
+03-Jan-23 08:59:14, Epoch 360:
+03-Jan-23 09:00:30, loss | train: -4.7222 - valid: -3.8095 - steps: 675000
+03-Jan-23 09:00:32, valid | thickness_mae: 0.0609 - intensity_mae: 1.4951 - digit_acc: 0.9934
+03-Jan-23 09:00:32, Epoch 361:
+03-Jan-23 09:01:48, loss | train: -4.7195 - valid: -3.8302 - steps: 676875
+03-Jan-23 09:01:50, valid | thickness_mae: 0.0607 - intensity_mae: 1.5156 - digit_acc: 0.9932
+03-Jan-23 09:01:50, Epoch 362:
+03-Jan-23 09:03:06, loss | train: -4.7159 - valid: -3.7648 - steps: 678750
+03-Jan-23 09:03:08, valid | thickness_mae: 0.0607 - intensity_mae: 1.5247 - digit_acc: 0.9935
+03-Jan-23 09:03:08, Epoch 363:
+03-Jan-23 09:04:25, loss | train: -4.7566 - valid: -3.7671 - steps: 680625
+03-Jan-23 09:04:26, valid | thickness_mae: 0.0607 - intensity_mae: 1.5208 - digit_acc: 0.9931
+03-Jan-23 09:04:26, Epoch 364:
+03-Jan-23 09:05:43, loss | train: -4.7449 - valid: -3.7320 - steps: 682500
+03-Jan-23 09:05:45, valid | thickness_mae: 0.0608 - intensity_mae: 1.5289 - digit_acc: 0.9931
+03-Jan-23 09:05:45, Epoch 365:
+03-Jan-23 09:07:01, loss | train: -4.7229 - valid: -3.7100 - steps: 684375
+03-Jan-23 09:07:03, valid | thickness_mae: 0.0608 - intensity_mae: 1.5381 - digit_acc: 0.9926
+03-Jan-23 09:07:03, Epoch 366:
+03-Jan-23 09:08:19, loss | train: -4.7551 - valid: -3.7582 - steps: 686250
+03-Jan-23 09:08:21, valid | thickness_mae: 0.0607 - intensity_mae: 1.5023 - digit_acc: 0.9926
+03-Jan-23 09:08:21, Epoch 367:
+03-Jan-23 09:09:37, loss | train: -4.7349 - valid: -3.8012 - steps: 688125
+03-Jan-23 09:09:39, valid | thickness_mae: 0.0607 - intensity_mae: 1.4900 - digit_acc: 0.9925
+03-Jan-23 09:09:39, Epoch 368:
+03-Jan-23 09:10:55, loss | train: -4.7429 - valid: -3.8744 - steps: 690000
+03-Jan-23 09:10:57, valid | thickness_mae: 0.0608 - intensity_mae: 1.4799 - digit_acc: 0.9928
+03-Jan-23 09:10:57, Epoch 369:
+03-Jan-23 09:12:13, loss | train: -4.7516 - valid: -3.8663 - steps: 691875
+03-Jan-23 09:12:15, valid | thickness_mae: 0.0607 - intensity_mae: 1.4811 - digit_acc: 0.9922
+03-Jan-23 09:12:15, Epoch 370:
+03-Jan-23 09:13:32, loss | train: -4.7061 - valid: -3.8558 - steps: 693750
+03-Jan-23 09:13:33, valid | thickness_mae: 0.0610 - intensity_mae: 1.4927 - digit_acc: 0.9924
+03-Jan-23 09:13:33, Epoch 371:
+03-Jan-23 09:14:50, loss | train: -4.7541 - valid: -3.7705 - steps: 695625
+03-Jan-23 09:14:51, valid | thickness_mae: 0.0607 - intensity_mae: 1.5230 - digit_acc: 0.9927
+03-Jan-23 09:14:51, Epoch 372:
+03-Jan-23 09:16:08, loss | train: -4.7567 - valid: -3.7845 - steps: 697500
+03-Jan-23 09:16:10, valid | thickness_mae: 0.0606 - intensity_mae: 1.4986 - digit_acc: 0.9929
+03-Jan-23 09:16:10, Epoch 373:
+03-Jan-23 09:17:26, loss | train: -4.7431 - valid: -3.7491 - steps: 699375
+03-Jan-23 09:17:28, valid | thickness_mae: 0.0606 - intensity_mae: 1.5078 - digit_acc: 0.9933
+03-Jan-23 09:17:28, Epoch 374:
+03-Jan-23 09:18:44, loss | train: -4.7418 - valid: -3.7647 - steps: 701250
+03-Jan-23 09:18:46, valid | thickness_mae: 0.0607 - intensity_mae: 1.5084 - digit_acc: 0.9930
+03-Jan-23 09:18:46, Epoch 375:
+03-Jan-23 09:20:03, loss | train: -4.7356 - valid: -3.7593 - steps: 703125
+03-Jan-23 09:20:04, valid | thickness_mae: 0.0607 - intensity_mae: 1.5241 - digit_acc: 0.9934
+03-Jan-23 09:20:04, Epoch 376:
+03-Jan-23 09:21:21, loss | train: -4.7538 - valid: -3.7827 - steps: 705000
+03-Jan-23 09:21:23, valid | thickness_mae: 0.0608 - intensity_mae: 1.5118 - digit_acc: 0.9930
+03-Jan-23 09:21:23, Epoch 377:
+03-Jan-23 09:22:39, loss | train: -4.7692 - valid: -3.8113 - steps: 706875
+03-Jan-23 09:22:41, valid | thickness_mae: 0.0605 - intensity_mae: 1.4992 - digit_acc: 0.9934
+03-Jan-23 09:22:41, Epoch 378:
+03-Jan-23 09:23:57, loss | train: -4.7458 - valid: -3.7419 - steps: 708750
+03-Jan-23 09:23:59, valid | thickness_mae: 0.0605 - intensity_mae: 1.5114 - digit_acc: 0.9930
+03-Jan-23 09:23:59, Epoch 379:
+03-Jan-23 09:25:15, loss | train: -4.7653 - valid: -3.8240 - steps: 710625
+03-Jan-23 09:25:17, valid | thickness_mae: 0.0606 - intensity_mae: 1.4905 - digit_acc: 0.9937
+03-Jan-23 09:25:17, Epoch 380:
+03-Jan-23 09:26:34, loss | train: -4.7498 - valid: -3.6928 - steps: 712500
+03-Jan-23 09:26:35, valid | thickness_mae: 0.0606 - intensity_mae: 1.5296 - digit_acc: 0.9935
+03-Jan-23 09:26:35, Epoch 381:
+03-Jan-23 09:27:52, loss | train: -4.7435 - valid: -3.7215 - steps: 714375
+03-Jan-23 09:27:54, valid | thickness_mae: 0.0606 - intensity_mae: 1.5189 - digit_acc: 0.9935
+03-Jan-23 09:27:54, Epoch 382:
+03-Jan-23 09:29:10, loss | train: -4.7627 - valid: -3.7671 - steps: 716250
+03-Jan-23 09:29:12, valid | thickness_mae: 0.0606 - intensity_mae: 1.5020 - digit_acc: 0.9929
+03-Jan-23 09:29:12, Epoch 383:
+03-Jan-23 09:30:28, loss | train: -4.7558 - valid: -3.7287 - steps: 718125
+03-Jan-23 09:30:30, valid | thickness_mae: 0.0605 - intensity_mae: 1.5155 - digit_acc: 0.9937
+03-Jan-23 09:30:30, Epoch 384:
+03-Jan-23 09:31:46, loss | train: -4.7467 - valid: -3.7442 - steps: 720000
+03-Jan-23 09:31:48, valid | thickness_mae: 0.0607 - intensity_mae: 1.5324 - digit_acc: 0.9936
+03-Jan-23 09:31:48, Epoch 385:
+03-Jan-23 09:33:05, loss | train: -4.7570 - valid: -3.7782 - steps: 721875
+03-Jan-23 09:33:06, valid | thickness_mae: 0.0606 - intensity_mae: 1.4900 - digit_acc: 0.9935
+03-Jan-23 09:33:06, Epoch 386:
+03-Jan-23 09:34:23, loss | train: -4.7703 - valid: -3.7603 - steps: 723750
+03-Jan-23 09:34:24, valid | thickness_mae: 0.0607 - intensity_mae: 1.4929 - digit_acc: 0.9933
+03-Jan-23 09:34:24, Epoch 387:
+03-Jan-23 09:35:41, loss | train: -4.7559 - valid: -3.6783 - steps: 725625
+03-Jan-23 09:35:43, valid | thickness_mae: 0.0607 - intensity_mae: 1.5422 - digit_acc: 0.9930
+03-Jan-23 09:35:43, Epoch 388:
+03-Jan-23 09:36:59, loss | train: -4.7607 - valid: -3.6956 - steps: 727500
+03-Jan-23 09:37:01, valid | thickness_mae: 0.0607 - intensity_mae: 1.4894 - digit_acc: 0.9931
+03-Jan-23 09:37:01, Epoch 389:
+03-Jan-23 09:38:17, loss | train: -4.7089 - valid: -3.6955 - steps: 729375
+03-Jan-23 09:38:19, valid | thickness_mae: 0.0608 - intensity_mae: 1.5145 - digit_acc: 0.9929
+03-Jan-23 09:38:19, Epoch 390:
+03-Jan-23 09:39:35, loss | train: -4.7831 - valid: -3.7027 - steps: 731250
+03-Jan-23 09:39:37, valid | thickness_mae: 0.0608 - intensity_mae: 1.5047 - digit_acc: 0.9933
+03-Jan-23 09:39:37, Epoch 391:
+03-Jan-23 09:40:53, loss | train: -4.7724 - valid: -3.6777 - steps: 733125
+03-Jan-23 09:40:55, valid | thickness_mae: 0.0609 - intensity_mae: 1.5131 - digit_acc: 0.9927
+03-Jan-23 09:40:55, Epoch 392:
+03-Jan-23 09:42:12, loss | train: -4.7825 - valid: -3.6622 - steps: 735000
+03-Jan-23 09:42:13, valid | thickness_mae: 0.0607 - intensity_mae: 1.5113 - digit_acc: 0.9930
+03-Jan-23 09:42:13, Epoch 393:
+03-Jan-23 09:43:30, loss | train: -4.7779 - valid: -3.6921 - steps: 736875
+03-Jan-23 09:43:31, valid | thickness_mae: 0.0607 - intensity_mae: 1.5027 - digit_acc: 0.9929
+03-Jan-23 09:43:31, Epoch 394:
+03-Jan-23 09:44:48, loss | train: -4.7893 - valid: -3.6933 - steps: 738750
+03-Jan-23 09:44:50, valid | thickness_mae: 0.0607 - intensity_mae: 1.5144 - digit_acc: 0.9925
+03-Jan-23 09:44:50, Epoch 395:
+03-Jan-23 09:46:06, loss | train: -4.7779 - valid: -3.7463 - steps: 740625
+03-Jan-23 09:46:08, valid | thickness_mae: 0.0607 - intensity_mae: 1.5167 - digit_acc: 0.9933
+03-Jan-23 09:46:08, Epoch 396:
+03-Jan-23 09:47:24, loss | train: -4.7844 - valid: -3.7805 - steps: 742500
+03-Jan-23 09:47:26, valid | thickness_mae: 0.0607 - intensity_mae: 1.4887 - digit_acc: 0.9939
+03-Jan-23 09:47:26, Epoch 397:
+03-Jan-23 09:48:43, loss | train: -4.7751 - valid: -3.7842 - steps: 744375
+03-Jan-23 09:48:44, valid | thickness_mae: 0.0607 - intensity_mae: 1.4863 - digit_acc: 0.9930
+03-Jan-23 09:48:44, Epoch 398:
+03-Jan-23 09:50:00, loss | train: -4.7750 - valid: -3.7215 - steps: 746250
+03-Jan-23 09:50:02, valid | thickness_mae: 0.0607 - intensity_mae: 1.4931 - digit_acc: 0.9930
+03-Jan-23 09:50:02, Epoch 399:
+03-Jan-23 09:51:19, loss | train: -4.7621 - valid: -3.7307 - steps: 748125
+03-Jan-23 09:51:20, valid | thickness_mae: 0.0607 - intensity_mae: 1.5110 - digit_acc: 0.9930
+03-Jan-23 09:51:20, Epoch 400:
+03-Jan-23 09:52:37, loss | train: -4.7703 - valid: -3.7598 - steps: 750000
+03-Jan-23 09:52:39, valid | thickness_mae: 0.0607 - intensity_mae: 1.5050 - digit_acc: 0.9935
+03-Jan-23 09:52:39, Epoch 401:
+03-Jan-23 09:53:55, loss | train: -4.7559 - valid: -3.7646 - steps: 751875
+03-Jan-23 09:53:57, valid | thickness_mae: 0.0606 - intensity_mae: 1.5002 - digit_acc: 0.9933
+03-Jan-23 09:53:57, Epoch 402:
+03-Jan-23 09:55:13, loss | train: -4.7852 - valid: -3.7692 - steps: 753750
+03-Jan-23 09:55:15, valid | thickness_mae: 0.0605 - intensity_mae: 1.4882 - digit_acc: 0.9932
+03-Jan-23 09:55:15, Epoch 403:
+03-Jan-23 09:56:31, loss | train: -4.7640 - valid: -3.7438 - steps: 755625
+03-Jan-23 09:56:33, valid | thickness_mae: 0.0605 - intensity_mae: 1.4993 - digit_acc: 0.9925
+03-Jan-23 09:56:33, Epoch 404:
+03-Jan-23 09:57:49, loss | train: -4.7773 - valid: -3.7531 - steps: 757500
+03-Jan-23 09:57:51, valid | thickness_mae: 0.0605 - intensity_mae: 1.5136 - digit_acc: 0.9932
+03-Jan-23 09:57:51, Epoch 405:
+03-Jan-23 09:59:08, loss | train: -4.7729 - valid: -3.6920 - steps: 759375
+03-Jan-23 09:59:09, valid | thickness_mae: 0.0605 - intensity_mae: 1.5010 - digit_acc: 0.9932
+03-Jan-23 09:59:09, Epoch 406:
+03-Jan-23 10:00:26, loss | train: -4.7651 - valid: -3.7161 - steps: 761250
+03-Jan-23 10:00:28, valid | thickness_mae: 0.0603 - intensity_mae: 1.5298 - digit_acc: 0.9930
+03-Jan-23 10:00:28, Epoch 407:
+03-Jan-23 10:01:44, loss | train: -4.7844 - valid: -3.7903 - steps: 763125
+03-Jan-23 10:01:46, valid | thickness_mae: 0.0604 - intensity_mae: 1.5040 - digit_acc: 0.9927
+03-Jan-23 10:01:46, Epoch 408:
+03-Jan-23 10:03:02, loss | train: -4.7611 - valid: -3.8258 - steps: 765000
+03-Jan-23 10:03:04, valid | thickness_mae: 0.0603 - intensity_mae: 1.4857 - digit_acc: 0.9935
+03-Jan-23 10:03:04, Epoch 409:
+03-Jan-23 10:04:20, loss | train: -4.8094 - valid: -3.7429 - steps: 766875
+03-Jan-23 10:04:22, valid | thickness_mae: 0.0604 - intensity_mae: 1.5013 - digit_acc: 0.9931
+03-Jan-23 10:04:22, Epoch 410:
+03-Jan-23 10:05:39, loss | train: -4.7820 - valid: -3.6727 - steps: 768750
+03-Jan-23 10:05:40, valid | thickness_mae: 0.0603 - intensity_mae: 1.5150 - digit_acc: 0.9931
+03-Jan-23 10:05:40, Epoch 411:
+03-Jan-23 10:06:57, loss | train: -4.7926 - valid: -3.7039 - steps: 770625
+03-Jan-23 10:06:58, valid | thickness_mae: 0.0604 - intensity_mae: 1.5115 - digit_acc: 0.9936
+03-Jan-23 10:06:58, Epoch 412:
+03-Jan-23 10:08:15, loss | train: -4.7843 - valid: -3.7183 - steps: 772500
+03-Jan-23 10:08:17, valid | thickness_mae: 0.0602 - intensity_mae: 1.5011 - digit_acc: 0.9935
+03-Jan-23 10:08:17, Epoch 413:
+03-Jan-23 10:09:33, loss | train: -4.8022 - valid: -3.7798 - steps: 774375
+03-Jan-23 10:09:35, valid | thickness_mae: 0.0604 - intensity_mae: 1.5079 - digit_acc: 0.9936
+03-Jan-23 10:09:35, Epoch 414:
+03-Jan-23 10:10:51, loss | train: -4.7940 - valid: -3.8076 - steps: 776250
+03-Jan-23 10:10:53, valid | thickness_mae: 0.0605 - intensity_mae: 1.4931 - digit_acc: 0.9936
+03-Jan-23 10:10:53, Epoch 415:
+03-Jan-23 10:12:10, loss | train: -4.7938 - valid: -3.6960 - steps: 778125
+03-Jan-23 10:12:11, valid | thickness_mae: 0.0603 - intensity_mae: 1.5159 - digit_acc: 0.9931
+03-Jan-23 10:12:11, Epoch 416:
+03-Jan-23 10:13:28, loss | train: -4.8009 - valid: -3.6566 - steps: 780000
+03-Jan-23 10:13:30, valid | thickness_mae: 0.0603 - intensity_mae: 1.5096 - digit_acc: 0.9930
+03-Jan-23 10:13:30, Epoch 417:
+03-Jan-23 10:14:46, loss | train: -4.7961 - valid: -3.7789 - steps: 781875
+03-Jan-23 10:14:48, valid | thickness_mae: 0.0604 - intensity_mae: 1.4926 - digit_acc: 0.9928
+03-Jan-23 10:14:48, Epoch 418:
+03-Jan-23 10:16:04, loss | train: -4.7791 - valid: -3.7460 - steps: 783750
+03-Jan-23 10:16:06, valid | thickness_mae: 0.0606 - intensity_mae: 1.5156 - digit_acc: 0.9926
+03-Jan-23 10:16:06, Epoch 419:
+03-Jan-23 10:17:22, loss | train: -4.7764 - valid: -3.8120 - steps: 785625
+03-Jan-23 10:17:24, valid | thickness_mae: 0.0603 - intensity_mae: 1.5157 - digit_acc: 0.9929
+03-Jan-23 10:17:24, Epoch 420:
+03-Jan-23 10:18:41, loss | train: -4.7830 - valid: -3.8207 - steps: 787500
+03-Jan-23 10:18:42, valid | thickness_mae: 0.0603 - intensity_mae: 1.4905 - digit_acc: 0.9928
+03-Jan-23 10:18:42, Epoch 421:
+03-Jan-23 10:19:59, loss | train: -4.8036 - valid: -3.8110 - steps: 789375
+03-Jan-23 10:20:00, valid | thickness_mae: 0.0601 - intensity_mae: 1.4977 - digit_acc: 0.9930
+03-Jan-23 10:20:00, Epoch 422:
+03-Jan-23 10:21:17, loss | train: -4.7821 - valid: -3.7736 - steps: 791250
+03-Jan-23 10:21:19, valid | thickness_mae: 0.0601 - intensity_mae: 1.4768 - digit_acc: 0.9924
+03-Jan-23 10:21:19, Epoch 423:
+03-Jan-23 10:22:35, loss | train: -4.7905 - valid: -3.7537 - steps: 793125
+03-Jan-23 10:22:37, valid | thickness_mae: 0.0603 - intensity_mae: 1.4558 - digit_acc: 0.9928
+03-Jan-23 10:22:37, Epoch 424:
+03-Jan-23 10:23:53, loss | train: -4.8123 - valid: -3.8062 - steps: 795000
+03-Jan-23 10:23:55, valid | thickness_mae: 0.0603 - intensity_mae: 1.4587 - digit_acc: 0.9926
+03-Jan-23 10:23:55, Epoch 425:
+03-Jan-23 10:25:12, loss | train: -4.8064 - valid: -3.7722 - steps: 796875
+03-Jan-23 10:25:13, valid | thickness_mae: 0.0602 - intensity_mae: 1.4911 - digit_acc: 0.9931
+03-Jan-23 10:25:13, Epoch 426:
+03-Jan-23 10:26:30, loss | train: -4.7954 - valid: -3.7892 - steps: 798750
+03-Jan-23 10:26:32, valid | thickness_mae: 0.0602 - intensity_mae: 1.4928 - digit_acc: 0.9932
+03-Jan-23 10:26:32, Epoch 427:
+03-Jan-23 10:27:48, loss | train: -4.8034 - valid: -3.8452 - steps: 800625
+03-Jan-23 10:27:50, valid | thickness_mae: 0.0603 - intensity_mae: 1.4980 - digit_acc: 0.9933
+03-Jan-23 10:27:50, Epoch 428:
+03-Jan-23 10:29:06, loss | train: -4.7909 - valid: -3.8297 - steps: 802500
+03-Jan-23 10:29:08, valid | thickness_mae: 0.0602 - intensity_mae: 1.5002 - digit_acc: 0.9941
+03-Jan-23 10:29:08, Epoch 429:
+03-Jan-23 10:30:24, loss | train: -4.7762 - valid: -3.8158 - steps: 804375
+03-Jan-23 10:30:26, valid | thickness_mae: 0.0602 - intensity_mae: 1.5204 - digit_acc: 0.9936
+03-Jan-23 10:30:26, Epoch 430:
+03-Jan-23 10:31:42, loss | train: -4.8162 - valid: -3.7753 - steps: 806250
+03-Jan-23 10:31:44, valid | thickness_mae: 0.0602 - intensity_mae: 1.5245 - digit_acc: 0.9926
+03-Jan-23 10:31:44, Epoch 431:
+03-Jan-23 10:33:00, loss | train: -4.8025 - valid: -3.8571 - steps: 808125
+03-Jan-23 10:33:02, valid | thickness_mae: 0.0602 - intensity_mae: 1.4686 - digit_acc: 0.9937
+03-Jan-23 10:33:02, Epoch 432:
+03-Jan-23 10:34:19, loss | train: -4.8007 - valid: -3.7523 - steps: 810000
+03-Jan-23 10:34:20, valid | thickness_mae: 0.0602 - intensity_mae: 1.4781 - digit_acc: 0.9935
+03-Jan-23 10:34:20, Epoch 433:
+03-Jan-23 10:35:37, loss | train: -4.8299 - valid: -3.7986 - steps: 811875
+03-Jan-23 10:35:39, valid | thickness_mae: 0.0602 - intensity_mae: 1.4739 - digit_acc: 0.9936
+03-Jan-23 10:35:39, Epoch 434:
+03-Jan-23 10:36:55, loss | train: -4.8242 - valid: -3.7589 - steps: 813750
+03-Jan-23 10:36:57, valid | thickness_mae: 0.0603 - intensity_mae: 1.5031 - digit_acc: 0.9926
+03-Jan-23 10:36:57, Epoch 435:
+03-Jan-23 10:38:14, loss | train: -4.8100 - valid: -3.8239 - steps: 815625
+03-Jan-23 10:38:15, valid | thickness_mae: 0.0603 - intensity_mae: 1.4735 - digit_acc: 0.9931
+03-Jan-23 10:38:15, Epoch 436:
+03-Jan-23 10:39:32, loss | train: -4.7999 - valid: -3.8300 - steps: 817500
+03-Jan-23 10:39:33, valid | thickness_mae: 0.0603 - intensity_mae: 1.4650 - digit_acc: 0.9935
+03-Jan-23 10:39:33, Epoch 437:
+03-Jan-23 10:40:50, loss | train: -4.8254 - valid: -3.7760 - steps: 819375
+03-Jan-23 10:40:52, valid | thickness_mae: 0.0601 - intensity_mae: 1.4715 - digit_acc: 0.9935
+03-Jan-23 10:40:52, Epoch 438:
+03-Jan-23 10:42:08, loss | train: -4.7961 - valid: -3.7120 - steps: 821250
+03-Jan-23 10:42:10, valid | thickness_mae: 0.0602 - intensity_mae: 1.4849 - digit_acc: 0.9930
+03-Jan-23 10:42:10, Epoch 439:
+03-Jan-23 10:43:26, loss | train: -4.8007 - valid: -3.7451 - steps: 823125
+03-Jan-23 10:43:28, valid | thickness_mae: 0.0602 - intensity_mae: 1.4765 - digit_acc: 0.9933
+03-Jan-23 10:43:28, Epoch 440:
+03-Jan-23 10:44:44, loss | train: -4.8132 - valid: -3.7595 - steps: 825000
+03-Jan-23 10:44:46, valid | thickness_mae: 0.0601 - intensity_mae: 1.4786 - digit_acc: 0.9932
+03-Jan-23 10:44:46, Epoch 441:
+03-Jan-23 10:46:03, loss | train: -4.8230 - valid: -3.7582 - steps: 826875
+03-Jan-23 10:46:04, valid | thickness_mae: 0.0601 - intensity_mae: 1.4807 - digit_acc: 0.9930
+03-Jan-23 10:46:04, Epoch 442:
+03-Jan-23 10:47:21, loss | train: -4.8006 - valid: -3.6938 - steps: 828750
+03-Jan-23 10:47:22, valid | thickness_mae: 0.0602 - intensity_mae: 1.4888 - digit_acc: 0.9931
+03-Jan-23 10:47:23, Epoch 443:
+03-Jan-23 10:48:39, loss | train: -4.8286 - valid: -3.7306 - steps: 830625
+03-Jan-23 10:48:41, valid | thickness_mae: 0.0602 - intensity_mae: 1.4819 - digit_acc: 0.9933
+03-Jan-23 10:48:41, Epoch 444:
+03-Jan-23 10:49:57, loss | train: -4.8106 - valid: -3.7149 - steps: 832500
+03-Jan-23 10:49:59, valid | thickness_mae: 0.0602 - intensity_mae: 1.4944 - digit_acc: 0.9926
+03-Jan-23 10:49:59, Epoch 445:
+03-Jan-23 10:51:15, loss | train: -4.8163 - valid: -3.7259 - steps: 834375
+03-Jan-23 10:51:17, valid | thickness_mae: 0.0602 - intensity_mae: 1.4896 - digit_acc: 0.9929
+03-Jan-23 10:51:17, Epoch 446:
+03-Jan-23 10:52:33, loss | train: -4.8367 - valid: -3.8210 - steps: 836250
+03-Jan-23 10:52:35, valid | thickness_mae: 0.0601 - intensity_mae: 1.4715 - digit_acc: 0.9929
+03-Jan-23 10:52:35, Epoch 447:
+03-Jan-23 10:53:52, loss | train: -4.8099 - valid: -3.7979 - steps: 838125
+03-Jan-23 10:53:53, valid | thickness_mae: 0.0602 - intensity_mae: 1.4899 - digit_acc: 0.9932
+03-Jan-23 10:53:53, Epoch 448:
+03-Jan-23 10:55:10, loss | train: -4.8291 - valid: -3.7759 - steps: 840000
+03-Jan-23 10:55:12, valid | thickness_mae: 0.0601 - intensity_mae: 1.4976 - digit_acc: 0.9928
+03-Jan-23 10:55:12, Epoch 449:

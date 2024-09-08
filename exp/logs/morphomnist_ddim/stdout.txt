@@ -1,0 +1,6 @@
+INFO - main.py - 2024-07-19 00:03:52,686 - Using device: cuda
+INFO - main.py - 2024-07-19 00:03:52,686 - Writing log file to exp\logs\morphomnist_ddim
+INFO - main.py - 2024-07-19 00:03:52,686 - Exp instance id = 12108
+INFO - main.py - 2024-07-19 00:03:52,686 - Exp comment = 
+INFO - diffusion.py - 2024-07-19 00:04:08,928 - epoch: 0 / 10000, step: 1, loss: 1109.6192626953125, data time: 5.601914882659912
+INFO - diffusion.py - 2024-07-19 00:04:11,648 - Checkpoint saved at step 1!

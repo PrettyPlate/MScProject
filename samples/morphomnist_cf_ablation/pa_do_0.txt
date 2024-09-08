@@ -1,0 +1,2 @@
+tensor([[-0.4827]], device='cuda:0')
+tensor([[-0.4995]], device='cuda:0')
