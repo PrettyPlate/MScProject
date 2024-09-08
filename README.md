@@ -1,30 +1,39 @@
 ## Diffusion Models in Counterfactual Image Generation
 
-This is the official code for the MSc thesis "Diffusion Models in Counterfactual Image Generation" by Yuxuan Wang in
-Imperial College London. The code is based on the DDIM by [ermongroup](https://github.com/ermongroup/ddim) and Causal-Gen
+This is the official code for the MSc thesis **_"Diffusion Models in Counterfactual Image Generation"_** by **Yuxuan Wang** from MSc Computing(AI&ML) in
+Imperial College London.
+
+Supervisors: **Prof. Ben Glocker** and **Dr. Fabio De De Sousa Ribeiro**.
+
+The code is based on the DDIM by [ermongroup](https://github.com/ermongroup/ddim) and Causal-Gen
 by [BioMedia-MIRA](https://github.com/biomedia-mira/causal-gen).
 
 ### Installation
+
 ```commandline
 pip install -r requirements.txt
 ```
 
 ### Training DDIM
+
 ```commandline
 python main.py --config morphomnist.yml --exp exp --doc morphomnist_ddim
 ```
 
 ### Training PGM
+
 ```commandline
 bash src/run_local.sh
 ```
 
 ### Evaluation
+
 ```commandline
 python eval.py --config morphomnist.yml --exp exp --doc morphomnist_ddim
 ```
 
 ### Here are some examples of the generated images:
+
 <div style="display: flex; justify-content: space-around;">
   <div>
     <img src="samples/2_50_uniform.png" alt="Image 1" width="200px"/>
@@ -44,6 +53,7 @@ python eval.py --config morphomnist.yml --exp exp --doc morphomnist_ddim
 </div>
 
 ### Here are some examples of the generated counterfactual images:
+
 <div style="text-align: center;">
   <div>
     <img src="samples/morphomnist_cf/cf_0.png" alt="Image 1" width="600px"/>
